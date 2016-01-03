@@ -1,0 +1,194 @@
+@import url('../fonts/iransans/iransans.css');
+body {
+    direction: rtl;
+    background-color: #6C82E8;
+}
+p {
+    text-align: justify;
+}
+.content-box {
+    margin-top: 20vh;
+    border-radius: 2em;
+    box-shadow: 0px 0px 100px #000;    
+}
+.content-box div {
+    float:right;
+}
+
+.login-form {
+    background-color: #eee;
+    height: 30em;
+    position: relative;
+    border-bottom-right-radius: 2em;
+    border-top-right-radius: 2em;
+    border-left: 3px solid #d0d0d0;
+}
+.select-login{
+    top: 2em;
+}
+.select-login .active{
+    font-weight: bold;
+    background-color: #213563;
+}
+.select-login .active:hover{
+    background-color: #061763;
+}
+
+.login-form h2{
+    padding-top: 3em;
+    text-align: center;
+}
+.login-form form {
+    width: 80%;
+    margin: 0px auto;
+    padding: 6% 0 9%;
+}
+.login-form form p a {
+	color: #a5a5a5;
+}
+form p a:hover {
+	color:#21A957;
+}
+
+form .submit {
+    width: 99%;
+    padding: 3%;
+}
+input[type="text"], input[type="password"]{
+    margin-left: auto;
+    margin-right: auto;
+	text-align:right;
+	position: relative;
+    width: 100%;
+	padding:0.5em;
+	background:#D3D3D3;
+	margin-bottom: 1em;
+	color: #676767;
+	font-weight:600;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	border:1px solid #DED6D6;
+	-webkit-appearance:none;
+}
+ input[type="text"]:hover, input[type="password"]:hover{
+ 	border:1px solid #949494;
+	transition:0.5s;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;
+	-ms-transition:	0.5s;
+ 	
+ }
+input[type="submit"]{
+	width: 99%;
+	padding: 0.5em;
+	margin-bottom: 1em;
+	background: #213563;
+	color: #ECECEC;
+	box-shadow: inset 0px 0px 10px #666464;
+	-webkit-text-shadow: 0px 0px 3px #000;
+	-moz-text-shadow: 0px 0px 3px #000;
+	-o-text-shadow: 0px 0px 3px #000;
+	-ms-text-shadow: 0px 0px 3px #000;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-weight:500;
+	border-radius: 5px;
+	transition: 0.5s;
+	-webkit-appearance:none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+}
+input[type="submit"]:hover{
+	background:#061763;
+	color:#fff;
+}
+
+.stu-news {
+    background-color: #DFE3F3;
+    min-height: 35em;
+    border-bottom-left-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    padding: 1em;
+}
+.nav-tabs>li {
+    background-color: #fff;
+    margin-left: 5px;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #213563;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    color: #fff;
+}
+.nav-tabs {
+    border-bottom: 3px solid #213563;
+    padding-bottom: 1px;
+    padding-right: 5px;
+}
+.iau-logo {
+    position: absolute;
+    top: -7em;
+    width: 95%;
+}
+.iau-logo img {
+    max-width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-default.active, .btn-default.active:hover{
+    color: #fff;
+}
+@media screen and (max-width: 767px) {
+    .login-form {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 2em;
+        border-top-left-radius: 2em;
+        border-left: none;
+    }
+    .stu-news {
+        height: auto;
+        border-bottom-left-radius: 2em;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 2em;
+    }
+}
+.outer-box {
+    background-color: #213563;
+    border-radius: 2em;
+    margin-bottom: 2em;
+}
+.footer{
+    width: 100%;
+    padding: 1em;
+}
+footer {
+    padding-top: 5px;
+    font-size: .8em;
+    color: #eee;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer p{
+    text-align: center;
+}
+.tab-content{
+    padding: 2em;
+}
+div.alert {
+    width: 95%;
+}
+.alert {
+    border-radius: 1em;
+}
