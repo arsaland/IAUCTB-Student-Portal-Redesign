@@ -38,8 +38,9 @@
                             <div class="iau-logo col-xs-10"><img alt="لوگوی دانشگاه آزاد" src=
 							"img/iau-logo-2.png"></div>
                             
-                           <form>
+                           
                               <div login-type="stu">
+                                  <form>
 							<h2>ورود دانشجو</h2>
 							
 								<input class="text" onblur=
@@ -47,8 +48,13 @@
 								"this.value = '';" type="text" value="شماره دانشجویی"> <input onblur=
 								"if (this.value == '') {this.value = 'Password';}" onfocus=
 								"this.value = '';" type="password" value="Password">
+                                  <div class="submit">
+									<input onclick="myFunction()" type="submit" value="ورود">
+								</div>
+							</form>
                                 </div>
                               <div login-type="prof" style="display: none;">
+                                  <form>
 							<h2>ورود استاد</h2>
 				
 								<input class="text" onblur=
@@ -56,8 +62,14 @@
 								"this.value = '';" type="text" value="شماره پرسنلی"> <input onblur=
 								"if (this.value == '') {this.value = 'Password';}" onfocus=
 								"this.value = '';" type="password" value="Password">
+                                   <div class="submit">
+									<input onclick="myFunction()" type="submit" value="ورود">
+								</div>
+							</form>
                                 </div>
+                              
                               <div class="dropdownselect" login-type="guest" style="display: none;">
+                                  <form>
 							<h2>ورود میهمان</h2>
 							
 <!--								<input type="button" class="btn dropdown-toggle btn-default selectpicker" data-toggle="dropdown" title="رشته خود را انتخاب نمایید" aria-expanded="false" data-live-search="true">-->
@@ -79,11 +91,12 @@
 
                                     
 </select>
-</div>
-								<div class="submit">
+                                  <div class="submit">
 									<input onclick="myFunction()" type="submit" value="ورود">
 								</div>
 							</form>
+</div>
+								
                                 
                             
 						</div>
