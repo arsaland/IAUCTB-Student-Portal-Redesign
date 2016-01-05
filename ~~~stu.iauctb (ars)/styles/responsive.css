@@ -125,7 +125,7 @@ aside .name {
 
 
 
-@media only screen and (min-width:285px) and (max-width:750px) {
+@media only screen and (max-width:750px) {
 aside {
 	display: none;
 }
