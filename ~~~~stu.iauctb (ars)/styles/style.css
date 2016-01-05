@@ -349,12 +349,14 @@ header.is-fixed {
 }
 
 #cd-menu-trigger {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  bottom: 7px;
-  display: none;
+position: absolute;
+    width: 20px;
+    top: 0;
+    height: 20px;
+    top: -77px;
+    left: 13px;
+    background-color: #D6DFFF;
+    display: none;
 }
 .cd-menu-icon { background-color: white;}
 #cd-menu-trigger .cd-menu-text {
@@ -366,20 +368,20 @@ header.is-fixed {
 }
 #cd-menu-trigger .cd-menu-icon {
   /* this span is the central line in the menu menu */
-  display: inline-block;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  width: 24px;
-  height: 4px;
-  background-color: #FFF;
+      display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 24px;
+    height: 3px;
+    background-color: #004FA0;
   /* these are the upper and lower lines in the menu menu */
 }
 #cd-menu-trigger .cd-menu-icon::before, #cd-menu-trigger .cd-menu-icon:after {
@@ -587,7 +589,7 @@ aside {
 .content {
   width: auto;
   height: 100%;
-  background-color: #D8D8D8;
+  background-color: #F1F1F1;
   padding:75px 15px 15px 15px;
   margin-right: 260px;
 }
@@ -798,3 +800,384 @@ transition-duration: 200ms;
     top: 16px;
     right: 4px;
 }
+
+.page-navigation {
+    font-family: 'iran-sans-light';
+    font-size: 0.7rem;
+    margin-bottom: 15px;
+}
+
+
+
+
+/**************************************************************** HOME ****************************************************/
+
+#date-box {
+	width:20%;
+	margin-bottom: 25px;
+	display: block;
+	float:right;
+	position: relative;
+	margin-left:1.9%;
+	background-color: white;
+	height: 200px;
+}
+
+#date-day{
+    text-align: center;
+    font-size: 1rem;
+    margin-top:10px;
+}
+
+#date-day-num {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#date-month {
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+#profile-box {
+	width:33%;
+	margin-bottom: 25px;
+	margin-left:1.9%;
+	float:right;
+	background-color: white;
+    height: 200px;
+}
+
+#profile-box ul {
+    padding: 2% 4%;
+}
+
+#grade-average-chart {
+	width:43%;
+	float:right;
+	background-color: white;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+
+/*************************** CHART *************/
+
+.titular {
+display: block;
+line-height: 60px;
+margin: 0;
+text-align: center;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.horizontal-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+	.horizontal-list li {
+		float: left;
+	}
+		.block {
+			margin: 0 auto;
+			background: #394264;
+			border-radius: 0;
+      float: left;
+      width: 100%;
+      overflow: hidden;
+		}
+/*** left container ***/
+		.left-container {}
+			.menu-box {
+				height: 360px;
+			}
+
+			.donut-chart-block {
+				overflow: hidden;
+			}
+				.donut-chart-block .titular {
+					padding: 10px 0;
+				}
+				.os-percentages li {
+					width: 75px;
+					border-left: 1px solid #394264;
+					text-align: center;					
+					background: #50597b;
+				}
+					.os {
+						margin: 0;
+						padding: 10px 0 5px;
+						font-size: 15px;		
+					}
+						.os.ios {
+							border-top: 4px solid #e64c65;
+						}
+						.os.mac {
+							border-top: 4px solid #11a8ab;
+						}
+						.os.linux {
+							border-top: 4px solid #fcb150;
+						}
+						.os.win {
+							border-top: 4px solid #4fc4f6;
+						}
+					.os-percentage {
+						margin: 0;
+						padding: 0 0 15px 10px;
+						font-size: 25px;
+					}
+			.line-chart-block, .bar-chart-block {
+				height: 150px;
+			}
+				.line-chart {
+					height: 200px;
+					background: #FFFFFF;
+				}
+				.time-lenght {
+					padding-top: 22px;
+					padding-left: 38px;
+          overflow: hidden;
+				}
+					.time-lenght-btn {
+						display: block;
+						width: 70px;
+						line-height: 32px;
+						background: #50597b;
+						border-radius: 5px;
+						font-size: 14px;
+						text-align: center;
+						margin-right: 5px;
+						-webkit-transition: background .3s;
+						transition: background .3s;
+					}
+						.time-lenght-btn:hover {
+							text-decoration: none;
+							background: #e64c65;
+						}
+				.month-data {
+					padding-top: 28px;
+				}
+					.month-data p {
+						display: inline-block;
+						margin: 0;
+						padding: 0 25px 15px;            
+						font-size: 16px;
+					}
+						.month-data p:last-child {
+							padding: 0 25px;
+              float: right;
+							font-size: 15px;
+						}
+						.increment {
+							color: #e64c65;
+						}
+
+/******************************************
+↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓
+ESTILOS PROPIOS DE LOS GRÄFICOS
+↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ 
+GRAFICO LINEAL
+******************************************/
+
+.grafico {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #000;
+  font-size: 80%;
+}
+.grafico span {
+  display: block;
+  position: absolute;
+  bottom: 4rem;
+  left: 2.5rem;
+  height: 0;
+  border-top: 2px solid;
+  transform-origin: left center;
+}
+.grafico span > span {
+  left: 100%; bottom: 0;
+}
+[data-valor='25'] {width: 75px; transform: rotate(-45deg);}
+[data-valor='8'] {width: 24px; transform: rotate(65deg);}
+[data-valor='13'] {width: 39px; transform: rotate(-45deg);}
+[data-valor='5'] {width: 15px; transform: rotate(50deg);}
+[data-valor='23'] {width: 69px; transform: rotate(-70deg);}
+[data-valor='12'] {width: 36px; transform: rotate(75deg);}
+[data-valor='15'] {width: 45px; transform: rotate(-45deg);}
+
+[data-valor]:before {
+  content: '';
+  position: absolute;
+  display: block;
+  right: -4px;
+  bottom: -3px;
+  padding: 4px;
+  background: #000;
+  border-radius: 50%;
+}
+[data-valor='23']:after {
+  display: none;
+
+}
+[class^='eje-'] {
+  position: absolute;
+  left: 0;
+  bottom: 2.5rem;
+  width: 100%;
+  padding: 0rem 1rem 0 1rem;
+  height: 80%;
+}
+.eje-x {
+  height: 1.5rem;
+}
+.eje-y li {
+height: 15%;
+    position: relative;
+    top: 30px;
+    font-size: 0.7rem;
+  border-top: 1px solid #DCDCDC;
+}
+[data-ejeY]:before {
+  content: attr(data-ejeY);
+  display: inline-block;
+  width: 2rem;
+  text-align: right;
+  line-height: 0;
+  position: relative;
+  left: -2.5rem;
+  top: -.5rem;
+} 
+.eje-x li {
+  width: 13%;
+  font-size: 0.7rem;
+  font-family: 'iran-sans-light';
+  float: left;
+  text-align: center;
+}
+
+/*************************** CHART *************/
+
+
+
+
+
+
+.box-head {
+    width: 100%;
+    border-bottom: 2px solid #0017BF;
+    height: 35px;
+    background-color: rgba(0, 23, 191, 0.09);
+    overflow: hidden;
+
+}
+
+.box-head h2 {
+    font-size: 0.75rem;
+    top: 8px;
+    font-family: iran-sans-light;
+    right: 15px;
+    color: #0017BF;
+    position: relative;
+}
+
+
+span.profile-label {
+    font-family: iran-sans-light;
+    font-size: 0.7rem;
+}
+
+
+span.profile-text {
+    font-size: 0.7rem;
+}
+
+
+#public-msg {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color:white;
+}
+
+.ui-tabs .ui-tabs-nav {
+    background-color: white;
+    height: 47px;
+        margin-top: 10px;
+}
+
+.ui-widget-header {
+    border: 0px solid #e78f08;
+}
+.ui-tabs .ui-tabs-nav li {
+	float:right;
+}
+
+.ui-widget-content {
+    border: 0;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #000000;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float: right;
+    font-family: 'iran-sans-light';
+    padding: 1em 2em;
+    font-size: 0.8rem;
+}
+
+.ui-tabs {
+	padding: 0;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #525252;
+}
+.ui-tabs .ui-tabs-panel {
+		padding: 1em 0.8em;
+	    background-color: #fFF;
+	        border: 1px solid #C3C3C3;
+}
+
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #C3C3C3;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background-color: #ffF;
+}
+
+
+
+.msg-table {
+    font-size: 0.6rem;
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse; 
+}
+
+.msg-table thead tr {
+    font-size: 0.75rem;
+    font-family: 'iran-sans-light';
+}
+
+.msg-table tr:nth-of-type(odd) { 
+  background: #fff; 
+}
+.msg-table th { 
+  background: #565656; 
+  color: white; 
+  font-weight: bold; 
+}
+.msg-table td, .msg-table th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: center; 
+}
+
+/**************************************************************** HOME ****************************************************/

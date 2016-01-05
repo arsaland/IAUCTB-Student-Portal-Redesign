@@ -1,0 +1,197 @@
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:990px) and (max-width:1250px) {
+.header {
+    width: calc(100% - 180px);
+
+}
+aside {
+    width: 180px;
+}
+
+.item-has-children > a {
+    width: 180px;
+}
+
+.no-child a {
+    width: 180px;
+}
+
+.content {
+    margin-right: 180px;
+}
+
+.dropdown > li > a::after {
+	left: -1px;
+
+}
+
+
+}
+
+
+@media only screen and (min-width:751px) and (max-width:989px) {
+.header {
+    width: calc(100% - 150px);
+
+}
+
+aside {
+    width: 150px;
+}
+
+aside .name {
+    padding: 15px 0 25px;
+}
+
+.avatar {
+    width: 55px;
+}
+
+.no-child a {
+    font-size: 0.55rem;
+    width: 150px;
+    padding: 0 12px 0px 15px;
+    line-height: 33px;
+}
+
+.dropdown > li > a::after {
+	left: 2px;
+}
+
+.content {
+    margin-right: 150px;
+}
+
+.item-has-children > a {
+    font-size: 0.55rem;
+    line-height: 33px;
+}
+
+.name {
+    font-size: 0.75rem;
+}
+
+.no-child a i::before {
+	font-size: 17px;
+}
+
+.item-has-children a i::before {
+	font-size: 17px;
+}
+
+.item-has-children > a {
+    width: 150px;
+    padding: 0 12px 0px 15px;
+}
+
+.dropdown li ul li a {
+	font-size: 0.52rem;
+	padding: 0 44px 0 16px;
+	line-height: 28px;
+}
+
+.user-settings span{
+	margin-right: 8px;
+	font-size: 0.65rem;
+}
+
+.user-settings {
+    width: 120px;
+}
+
+.panel-info-text {
+    font-size: 0.65rem;
+}
+
+/**************************************************************** HOME ****************************************************/
+.grafico span {
+    left: 0rem;
+}
+/**************************************************************** HOME ****************************************************/
+
+
+
+}
+
+
+
+
+@media only screen and (min-width:285px) and (max-width:750px) {
+aside {
+	display: none;
+}
+.content {
+    margin-right: 0;
+    padding: 75px 10px 15px 10px;
+}
+
+.header {
+    width: 100%;
+}
+
+.panel-info-text {
+	display: none;
+}
+
+.user-settings span {
+	display: none;
+}
+
+.down-arrow {
+	display: none;
+}
+
+.user-settings {
+    width: 21px;
+}
+
+#cd-menu-trigger {
+	display: block;
+	    top: -77px;
+    left: 13px;
+}
+
+.user-settings {
+	top: -2px;
+	left: 47px;
+
+}
+
+.user-submenu {
+	left: -47px;
+	top: 62px;	
+}
+
+
+/**************************************************************** HOME ****************************************************/
+
+#date-box {
+    width: 35%;
+    margin-left: 5%;
+}
+
+#profile-box {
+    width: 60%;
+    margin-left: 0;
+}
+
+#grade-average-chart {
+    width: 100%;
+}
+
+.grafico span {
+    left: 7rem;
+}
+/**************************************************************** HOME ****************************************************/
+
+
+}
