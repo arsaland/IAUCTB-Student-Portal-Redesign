@@ -59,14 +59,11 @@ ul,nav,ol,a,li,div,p,h1,label,h2,h3,h4,input,pre {
 }
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-    font-family: Flaticon;
-    font-size: 20px;
-    font-style: normal;
-    position: relative;
-    margin-left: 18px;
-    top: 3px;
-}
-.flaticon-arrow222:before {
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-arrow222:before {
   content: "\e000";
 }
 .flaticon-black302:before {
@@ -81,30 +78,40 @@ ul,nav,ol,a,li,div,p,h1,label,h2,h3,h4,input,pre {
 .flaticon-creditcard3:before {
   content: "\e004";
 }
-.flaticon-house204:before {
+.flaticon-delete85:before {
   content: "\e005";
 }
-.flaticon-key162:before {
+.flaticon-house204:before {
   content: "\e006";
 }
-.flaticon-mail3:before {
+.flaticon-key162:before {
   content: "\e007";
 }
-.flaticon-money379:before {
+.flaticon-magnifier12:before {
   content: "\e008";
 }
-.flaticon-search1:before {
+.flaticon-mail3:before {
   content: "\e009";
 }
-.flaticon-test1:before {
+.flaticon-money379:before {
   content: "\e00a";
 }
-.flaticon-user146:before {
+.flaticon-rounded54:before {
   content: "\e00b";
 }
-.flaticon-user7:before {
+.flaticon-search1:before {
   content: "\e00c";
 }
+.flaticon-test1:before {
+  content: "\e00d";
+}
+.flaticon-user146:before {
+  content: "\e00e";
+}
+.flaticon-user7:before {
+  content: "\e00f";
+}
+
 
 
 
@@ -803,7 +810,7 @@ transition-duration: 200ms;
 
 .page-navigation {
     font-family: 'iran-sans-light';
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     margin-bottom: 15px;
 }
 
@@ -1070,7 +1077,7 @@ height: 15%;
     width: 100%;
     border-bottom: 2px solid #0017BF;
     height: 35px;
-    background-color: rgba(0, 23, 191, 0.09);
+    background-color: rgba(0, 23, 191, 0.14);
     overflow: hidden;
 
 }
@@ -1176,8 +1183,489 @@ span.profile-text {
 }
 .msg-table td, .msg-table th { 
   padding: 6px; 
+      font-family: 'iran-sans-light';
   border: 1px solid #ccc; 
   text-align: center; 
 }
 
 /**************************************************************** HOME ****************************************************/
+
+
+
+/**************************************************************** darkhast govahi ****************************************************/
+.contactus-container {
+    padding: 35px 0 0;
+    margin: 0 auto;
+    width: 950px;
+}
+
+.contactus-container h1 {
+
+}
+
+.contactus-form {
+    width:80%;
+    margin:0 auto;
+}
+
+.contactus-label {
+      right: 10px;
+    position: relative;
+      font-size: 0.8rem;
+    font-family:iran-sans-light;
+    display:block;
+    margin:20px auto 0;
+    width: 89%;
+}
+
+.contactus-input, .contactus-textarea {
+    width: 85%;
+    height:35px;
+    display: block;
+    background:#F7F7F7;
+    border:1px solid #D0D0D0;
+    padding:10px;
+    margin:10px auto 0;
+    color:#3a3a3a;
+}
+
+.contactus-input:focus, .contactus-textarea:focus , .captcha-input:focus {
+    border:1px solid rgb(146, 170, 255);
+    outline:none;
+}
+
+.contactus-textarea {
+    height:150px;
+    resize: vertical;
+}
+
+#contactus-submit {
+      color: white;
+      clear: both;
+    width:110px;
+    height:38px;
+    border:none;
+    cursor:pointer;
+    background-color: rgb(17, 0, 109);
+    margin: 50px 0 25px 25px;
+}
+
+#contactus-submit:hover {
+        opacity:0.9;
+}
+
+.captcha-input {
+    width: 200px;
+    height: 35px;
+    background: #F7F7F7;
+    border: 1px solid #D0D0D0;
+    padding: 10px;
+    margin-top: 10px;
+    color: #3a3a3a;
+    margin-right: 38px;
+}
+
+.captcha-image {
+    width: 110px;
+    display: block;
+    height: 42px;
+    position: relative;
+}
+
+
+
+.contactus-form-container {
+    display: block;
+    position: relative;
+    width: 65%;
+}
+
+.contactus-text {
+    display: block;
+    position: relative;
+    width: 34.5%;
+    color:#4c4c4c;
+}
+
+
+.contactus-text p {
+    width: 90%;
+    text-align: justify;
+}
+
+.captcha-label {
+    margin-top:30px;
+}
+
+.ajax-loader {
+    display: none;
+    position: relative;
+}
+
+.success {
+    display: none;
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 89%;
+    clear: both;
+}
+
+.success p {
+    color: #009000;
+}
+
+.success img {
+    display: block;
+    width: 15px;
+    position: relative;
+}
+
+.contactus-form input::-webkit-input-placeholder {
+    opacity: 0.6;
+}
+
+.contactus-form input:-moz-placeholder { /* Firefox 18- */
+    opacity: 0.6;
+}
+
+.contactus-form input::-moz-placeholder {  /* Firefox 19+ */
+    opacity: 0.6;
+}
+
+.contactus-form input:-ms-input-placeholder {  
+    opacity: 0.6;
+}
+
+
+.contactus-form textarea::-webkit-input-placeholder {
+    opacity: 0.6;
+}
+
+.contactus-form textarea:-moz-placeholder { /* Firefox 18- */
+    opacity: 0.6;
+}
+
+.contactus-form textarea::-moz-placeholder {  /* Firefox 19+ */
+    opacity: 0.6;
+}
+
+.contactus-form textarea:-ms-input-placeholder {  
+    opacity: 0.6;
+}
+
+
+.contactus-container h1 {
+    font-size:1.5rem;
+    padding-bottom: 30px;
+}
+
+#contactus-submit {
+    float:left;
+    font-family: iran-sans-light;
+}
+
+.contactus-textarea {
+    font-family:iran-sans-light;
+    font-size:0.7rem;
+}
+
+.contactus-input {
+    font-family:iran-sans-light;
+    font-size:0.7rem;
+
+}
+.captcha-input {
+    float: right;
+    font-family: iran-sans-light;
+    font-size: 0.7rem;
+}
+
+.captcha-image {
+    float:left;
+    margin: 10px 0 0 26px;
+}
+
+.ajax-loader {
+    float:right;
+    margin: 61px 26px 0 0;
+}
+
+.contactus-form-container {
+    float:left;
+}
+
+.contactus-text {
+    float: right;
+    border-left: 2px solid rgb(214, 223, 255);
+    height: 235px;
+}
+
+.contactus-text p {
+      padding-right: 20px;
+    font-size: 0.7rem;
+    font-family: iran-sans-light;
+    line-height: 20px;
+}
+
+.success p {
+    font-family: iran-sans-light;
+    font-size: 0.9rem;
+}
+
+.success img {
+    float:right;
+    top: 5px;
+    margin: 0 0 0 7px;
+}
+
+#govahi {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color:white;
+}
+
+/**************************************************************** darkhast govahi ****************************************************/
+
+
+/**************************************************************** mohasebegar shahrie ****************************************************/
+.shahrie-table {
+    font-size: 0.6rem;
+    width: 50%;
+        border: 1px solid #000;
+    float: left;
+    margin: 20px 0 20px 30px;
+    background-color: #F3F3F3;
+    border-collapse: collapse;
+}
+
+.shahrie-table thead tr {
+    font-size: 0.75rem;
+        height: 35px;
+    font-family: 'iran-sans-light';
+}
+
+.shahrie-table tr:nth-of-type(odd) { 
+  background: #fff; 
+}
+.shahrie-table th { 
+  background: rgb(91, 172, 255); 
+  color: white; 
+      font-size: 0.8rem;
+  font-weight: bold; 
+}
+.shahrie-table td, .msg-table th { 
+    padding: 5px 9px;
+    text-align: center;
+}
+
+
+.shahrie-input {
+    width: 20%;
+    height: 20px;
+    display: block;
+    background: #F7F7F7;
+    border: 1px solid #D0D0D0;
+    padding: 10px;
+    margin: 7px auto;
+    color: #3a3a3a;
+        direction: ltr;
+}
+
+.shahrie-input:focus {
+    border:1px solid #000000;
+    outline:none;
+}
+
+#shahrie-submit {
+color: white;
+    width: 93px;
+    height: 28px;
+    display: block;
+    margin: 17px auto;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(17, 0, 109);
+        font-family: 'iran-sans-light';
+}
+
+#shahrie-submit:hover {
+        opacity:0.9;
+}
+
+#vaahed {
+    width: 35%;
+    float: right;
+    margin: 20px 30px 20px 0;
+    display: block;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+span.vprofile-label {
+    font-family: iran-sans-light;
+    font-size: 0.7rem;
+}
+
+
+span.vprofile-text {
+    font-size: 0.7rem;
+    font-family: iran-sans-light;
+}
+
+span.gprofile-label {
+    font-size: 0.9rem;
+}
+
+
+span.gprofile-text {
+    font-size: 0.9rem;
+        color: #0072FF;
+}
+
+.vahed-nums li {
+  line-height: 23px;
+}
+
+.vahed-sums li {
+  line-height: 35px;
+}
+
+ul.vahed-sums {
+    margin-top: 55px;
+}
+/**************************************************************** mohasebegar shahrie ****************************************************/
+
+/**************************************************************** entekhab vahed ****************************************************/
+
+label#entekhabv-label {
+    font-family: 'iran-sans-light';
+    font-size: 0.9rem;
+}
+
+
+
+
+/**************************************************************** entekhab vahed ****************************************************/
+
+.select-course-table {
+    font-size: 0.6rem;
+    width: 95%;
+
+        border: 1px solid #000;
+    margin:50px auto 35px;
+    background-color: #F3F3F3;
+    border-collapse: collapse;
+}
+
+.select-course-table thead tr {
+    font-size: 0.75rem;
+        height: 35px;
+    font-family: 'iran-sans-light';
+}
+
+.select-course-table tr:nth-of-type(odd) { 
+  background: #E8E8E8; 
+}
+.select-course-table th { 
+  background: rgb(84, 84, 84); 
+  color: white; 
+      font-size: 0.65rem;
+  font-weight: bold; 
+}
+.select-course-table td { 
+    padding: 12px 9px;
+    font-size: 0.7rem;
+    font-family: 'iran-sans-light';
+    text-align: center;
+}
+
+#course-code {
+  width:95%;
+  margin:0 auto;
+
+
+}
+
+.entekhabv-label {
+    position: relative;
+    font-size: 0.8rem;
+    display: block;
+    margin: 22px 0 20px;
+    float: right;
+    width: 60px;
+}
+
+.entekhabv-input {
+    width: 65px;
+    height: 25px;
+    float: right;
+    margin: 20px 0;
+    display: block;
+    background: #F7F7F7;
+    border: 1px solid #D0D0D0;
+    padding: 10px;
+    color: #3a3a3a;
+}
+
+.entekhabv-input:focus {
+    border:1px solid rgb(146, 170, 255);
+    outline:none;
+}
+
+span.evprofile-label {
+    font-size: 0.7rem;
+}
+
+
+span.evprofile-text {
+    font-size: 0.7rem;
+    color: #002475;
+}
+
+
+ul.entekhab-vahed-sums {
+    width: 95%;
+    margin: 0 auto 70px;
+}
+
+#delete-course::before {
+    font-size: 10px;
+        margin: 0 auto;
+        cursor:pointer;
+}
+
+#delete-course:hover::before {
+color: #AB0000;
+}
+
+#add-course-text {
+    display: inline-block;
+    margin: 24px 6px 0 0;
+    font-size: 0.7rem;
+    color: #1000FF;
+}
+
+span#add-course-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+span#add-course-text-icon i::before {
+    font-size: 16px;
+}
+
+span#add-course-text-icon {
+    width: 15px;
+    float: right;
+    display: block;
+    margin: 25px 16px 0 0;
+    color: #1000FF;
+}
+
+div#search-course {
+    position: relative;
+    right: -123px;
+}

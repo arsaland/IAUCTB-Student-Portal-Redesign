@@ -1,0 +1,473 @@
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:990px) and (max-width:1250px) {
+.header {
+    width: calc(100% - 180px);
+
+}
+aside {
+    width: 180px;
+}
+
+.item-has-children > a {
+    width: 180px;
+}
+
+.no-child a {
+    width: 180px;
+}
+
+.content {
+    margin-right: 180px;
+}
+
+.dropdown > li > a::after {
+	left: -1px;
+
+}
+
+
+}
+
+
+@media only screen and (min-width:751px) and (max-width:989px) {
+.header {
+    width: calc(100% - 150px);
+
+}
+
+aside {
+    width: 150px;
+}
+
+aside .name {
+    padding: 15px 0 25px;
+}
+
+.avatar {
+    width: 55px;
+}
+
+.no-child a {
+    font-size: 0.55rem;
+    width: 150px;
+    padding: 0 12px 0px 15px;
+    line-height: 33px;
+}
+
+.dropdown > li > a::after {
+	left: 2px;
+}
+
+.content {
+    margin-right: 150px;
+}
+
+.item-has-children > a {
+    font-size: 0.55rem;
+    line-height: 33px;
+}
+
+.name {
+    font-size: 0.75rem;
+}
+
+.no-child a i::before {
+	font-size: 17px;
+}
+
+.item-has-children a i::before {
+	font-size: 17px;
+}
+
+.item-has-children > a {
+    width: 150px;
+    padding: 0 12px 0px 15px;
+}
+
+.dropdown li ul li a {
+	font-size: 0.52rem;
+	padding: 0 44px 0 16px;
+	line-height: 28px;
+}
+
+.user-settings span{
+	margin-right: 8px;
+	font-size: 0.65rem;
+}
+
+.user-settings {
+    width: 120px;
+}
+
+.panel-info-text {
+    font-size: 0.65rem;
+}
+
+/***************************************** ******** HOME ****************************************************/
+.grafico span {
+    left: 0rem;
+}
+/************************************************** HOME ****************************************************/
+
+/********************************************** darkhast govahi *************************/
+.contactus-container {
+    width: 750px;
+    padding: 40px 0 0;
+}
+.contactus-container h1 {
+    font-size: 1.4rem;
+    padding-bottom: 25px;
+}
+
+.contactus-text {
+    height: 225px;
+}
+
+
+
+.contactus-label {
+    font-size: 0.9rem;
+}
+
+.contactus-input {
+    font-size: 0.6rem;
+}
+
+.contactus-textarea {
+    font-size: 0.6rem;
+}
+
+.captcha-input {
+    font-size: 0.6rem;
+    margin-right: 19px;
+    width: 140px;
+}
+
+.captcha-image {
+    margin: 10px 0 0 18px;
+}
+
+#contactus-submit {
+    margin: 50px 0 0 18px;
+}
+
+.contactus-form-container {
+    padding-bottom: 105px;
+}
+
+/********************************************** darkhast govahi *************************/
+
+/************************************************************* mohasebegar shahrie ******************************************/
+.shahrie-table {
+    width: 55%;
+    margin: 20px 0 20px 10px;
+}
+#vaahed {
+    width:30%;   
+}
+
+span.vprofile-label {
+    font-size: 0.65rem;
+}
+
+span.vprofile-text {
+    font-size: 0.65rem;
+}
+
+span.gprofile-label {
+    font-size: 0.7rem;
+}
+
+
+span.gprofile-text {
+    font-size: 0.7rem;
+}
+
+.shahrie-table th {
+    font-size: 0.55rem;
+}
+.shahrie-table td {
+    padding: 3px 9px;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+#shahrie-submit {
+    width: 80px;
+    height: 27px;
+    font-size: 0.6rem;
+}
+/************************************************************* mohasebegar shahrie ****************************************/
+
+/**************************************************************** entekhab vahed ****************************************************/
+.select-course-table th {
+    font-size: 0.5rem;
+}
+
+.select-course-table td {
+    font-size: 0.55rem;
+}
+
+.select-course-table {
+    width: 100%;
+}
+
+.entekhabv-label {
+    font-size: 0.6rem;
+        width: 50px;
+}
+
+div#search-course {
+    right: -114px;
+}
+
+#add-course-text {
+    font-size: 0.6rem;
+}
+
+span#add-course-text-icon {
+    margin: 25px 10px 0 0;
+}
+
+span.evprofile-text {
+    font-size: 0.6rem;
+}
+span.evprofile-label {
+    font-size: 0.6rem;
+}
+
+/**************************************************************** entekhab vahed ****************************************************/
+
+}
+
+
+
+
+@media only screen and (max-width:750px) {
+aside {
+	display: none;
+}
+.content {
+    margin-right: 0;
+    padding: 75px 10px 15px 10px;
+}
+
+.header {
+    width: 100%;
+}
+
+.panel-info-text {
+	display: none;
+}
+
+.user-settings span {
+	display: none;
+}
+
+.down-arrow {
+	display: none;
+}
+
+.user-settings {
+    width: 21px;
+}
+
+#cd-menu-trigger {
+	display: block;
+	    top: -77px;
+    left: 13px;
+}
+
+.user-settings {
+	top: -2px;
+	left: 47px;
+
+}
+
+.user-submenu {
+	left: -47px;
+	top: 62px;	
+}
+
+
+/**************************************************************** HOME ****************************************************/
+
+#date-box {
+    width: 35%;
+    margin-left: 5%;
+}
+
+#profile-box {
+    width: 60%;
+    margin-left: 0;
+}
+
+#grade-average-chart {
+    width: 100%;
+}
+
+.grafico span {
+    left: 2rem;
+}
+/**************************************************************** HOME ****************************************************/
+
+/************************************************************* darkhast govahi  *******************************************/
+.contactus-container {
+    width: 95%;
+    padding: 30px 0 0;
+}
+.contactus-container h1 {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+.contactus-text {
+    width: 100%;
+    height: 110px;
+    float:none;
+    border-left:0;
+    margin-top: 0;
+}
+
+.contactus-form {
+    width: 100%;
+}
+
+.contactus-form-container {
+    float: none;
+    width: 100%;
+}
+
+.contactus-text p {
+    font-size: 0.75rem;
+    text-align: right;
+    width: 100%;
+    line-height: 28px;
+    padding:0;
+    margin:0 auto;
+}
+
+.contactus-label {
+    font-size: 0.8rem;
+    margin: 15px auto 0;
+}
+.captcha-label {
+    margin-top: 25px;
+}
+
+.contactus-input {
+    font-size: 0.55rem;
+}
+
+.contactus-textarea {
+    font-size: 0.55rem;
+}
+
+.captcha-input {
+    width: 120px;
+    font-size: 0.55rem;
+    margin-right: 7%;
+}
+
+.captcha-image {
+    margin: 10px 0 0 5.1%;
+}
+
+#contactus-submit {
+    margin: 40px 0 75px 5%;
+    clear: both;
+}
+
+.contactus-form-container {
+    padding-bottom: 70px;
+    padding-top: 220px;
+}
+
+.success {
+    padding-top: 0;
+}
+
+.success p {
+    font-size: 0.75rem;
+}
+
+.success img {
+    top: 4px;
+    width: 12px;
+}
+
+/************************************************************* darkhast govahi  *******************************************/
+
+/************************************************************* mohasebegar shahrie ******************************************/
+.shahrie-table {
+    width: 97%;
+    margin: 11px auto;
+    float: none;
+}
+#vaahed {
+    width:100%;
+    float:none;
+
+}
+ul.vahed-sums {
+    margin-top: 15px;
+}
+
+
+
+/************************************************************* mohasebegar shahrie ****************************************/
+
+/**************************************************************** entekhab vahed ****************************************************/
+.select-course-table th {
+    font-size: 0.5rem;
+}
+
+.select-course-table td {
+    font-size: 0.55rem;
+}
+
+.select-course-table {
+    width: 100%;
+}
+
+.entekhabv-label {
+    font-size: 0.6rem;
+        width: 50px;
+}
+
+div#search-course {
+    right: -114px;
+}
+
+#add-course-text {
+    font-size: 0.6rem;
+}
+
+span#add-course-text-icon {
+    margin: 25px 10px 0 0;
+}
+
+span.evprofile-text {
+    font-size: 0.6rem;
+}
+span.evprofile-label {
+    font-size: 0.6rem;
+}
+
+ul.entekhab-vahed-sums {
+    margin: 0 auto 50px;
+}
+
+/**************************************************************** entekhab vahed ****************************************************/
+
+
+}
