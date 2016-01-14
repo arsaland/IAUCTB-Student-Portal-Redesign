@@ -124,6 +124,36 @@ input[type="submit"]:hover{
 	color:#fff;
 }
 
+input[type="button"]{
+	width: 99%;
+	padding: 0.5em;
+	margin-bottom: 1em;
+    margin-top: 1em;
+	background: #213563;
+	color: #ECECEC;
+	box-shadow: inset 0px 0px 10px #666464;
+	-webkit-text-shadow: 0px 0px 3px #000;
+	-moz-text-shadow: 0px 0px 3px #000;
+	-o-text-shadow: 0px 0px 3px #000;
+	-ms-text-shadow: 0px 0px 3px #000;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-weight:500;
+	border-radius: 5px;
+	transition: 0.5s;
+	-webkit-appearance:none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+}
+input[type="button"]:hover{
+	background:#061763;
+	color:#fff;
+}
+
 .stu-news {
     background-color: #DFE3F3;
     min-height: 35em;
