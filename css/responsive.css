@@ -298,6 +298,31 @@ aside {
 	top: 62px;	
 }
 
+.avatar {
+  margin:5px auto 0;
+}
+
+.item-has-children > a {
+    line-height: 30px;
+        font-size: 0.6rem;
+}
+
+.no-child a {
+    font-size: 0.6rem;
+    line-height: 30px;
+}
+
+.sub-menu li a {
+    font-size: 0.55rem;
+}
+
+.name {
+    font-size: 0.8rem;
+}
+
+.avatar {
+    width: 60px;
+}
 
 /**************************************************************** HOME ****************************************************/
 
