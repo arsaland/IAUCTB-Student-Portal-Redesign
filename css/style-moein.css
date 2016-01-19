@@ -1,12 +1,12 @@
 #nav
 		{
 			width: 60em; /* 1000 */
-			font-family: 'Open Sans', sans-serif;
-			font-weight: 400;
-			position: absolute;
-			top: 25%;
-			left: 50%;
-			margin-left: -30em; /* 30 480 */
+			font-family: iran-sans-light;
+			padding: 5px;
+            width:80%;
+            margin-right: auto;
+			margin-left:auto; 
+            padding-bottom: 5em;
 		}
 
 			#nav > a
@@ -34,7 +34,7 @@
 				height: 0;
 				border: 0.313em solid transparent; /* 5 */
 				border-bottom: none;
-				border-top-color: #efa585;
+				border-top-color: #4a82ff;
 				content: '';
 				vertical-align: middle;
 				display: inline-block;
@@ -47,7 +47,7 @@
 			#nav > ul
 			{
 				height: 3.75em; /* 60 */
-				background-color: #e15a1f;
+				background-color: #004F9F;
 			}
 				#nav > ul > li
 				{
@@ -58,18 +58,18 @@
 					#nav > ul > li > a
 					{
 						height: 100%;
-						font-size: 1.5em; /* 24 */
 						line-height: 2.5em; /* 60 (24) */
 						text-align: center;
+                        padding-top: 10px;
 					}
 						#nav > ul > li:not( :last-child ) > a
 						{
-							border-right: 1px solid #cc470d;
+							border-right: 1px solid #9b9fff;
 						}
 						#nav > ul > li:hover > a,
 						#nav > ul:not( :hover ) > li.active > a
 						{
-							background-color: #cc470d;
+							background-color: #004F9F;
 						}
 
 
@@ -77,7 +77,7 @@
 
 				#nav li ul
 				{
-					background-color: #cc470d;
+					background-color: #004F9F;
 					display: none;
 					position: absolute;
 					top: 100%;
@@ -94,14 +94,14 @@
 						}
 						#nav li ul a
 						{
-							font-size: 1.25em; /* 20 */
-							border-top: 1px solid #e15a1f;
+							
+							border-top: 1px solid #53546d;
 							padding: 0.75em; /* 15 (20) */
 						}
 							#nav li ul li a:hover,
 							#nav li ul:not( :hover ) li.active a
 							{
-								background-color: #e15a1f;
+								background-color: #004F9F;
 							}
 
 
@@ -134,7 +134,7 @@
 					height: 3.125em; /* 50 */
 					text-align: left;
 					text-indent: -9999px;
-					background-color: #e15a1f;
+					background-color: #53546d;
 					position: relative;
 				}
 					#nav > a:before,
@@ -187,7 +187,7 @@
 						#nav > ul > li:not( :last-child ) > a
 						{
 							border-right: none;
-							border-bottom: 1px solid #cc470d;
+							border-bottom: 1px solid #53546d;
 						}
 
 
