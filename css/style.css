@@ -808,6 +808,7 @@ padding: 15px 0 35px;
 
 .user-submenu a i {
     width: 11px;
+    top: -3px;
     display: block;
     right: 23px;
     position: relative;

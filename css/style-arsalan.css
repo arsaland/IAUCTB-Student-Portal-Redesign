@@ -1,0 +1,31 @@
+.exam-card-table {
+    font-size: 0.6rem;
+    width: 95%;
+
+        border: 1px solid #000;
+    margin:50px auto 35px;
+    background-color: #F3F3F3;
+    border-collapse: collapse;
+}
+
+.exam-card-table thead tr {
+    font-size: 0.75rem;
+        height: 35px;
+    font-family: 'iran-sans-light';
+}
+
+.exam-card-table tr:nth-of-type(odd) { 
+  background: #E8E8E8; 
+}
+.exam-card-table th { 
+  background: rgb(84, 84, 84); 
+  color: white; 
+      font-size: 0.65rem;
+  font-weight: bold; 
+}
+.exam-card-table td { 
+    padding: 12px 9px;
+    font-size: 0.7rem;
+    font-family: 'iran-sans-light';
+    text-align: center;
+}
