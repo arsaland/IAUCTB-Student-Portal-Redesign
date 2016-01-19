@@ -227,7 +227,7 @@ span.gprofile-text {
 }
 
 div#search-course {
-    right: -114px;
+
 }
 
 #add-course-text {
@@ -288,24 +288,26 @@ aside {
 }
 
 .user-settings {
-	top: -2px;
-	left: 47px;
+	top: 1px;
+	left: 50px;
 
 }
 
 .user-submenu {
 	left: -47px;
-	top: 62px;	
+	top: 59px;	
 }
 
 .avatar {
   margin:5px auto 0;
 }
 
-.item-has-children > a {
+.item-has-children > a,.item-has-children > a:focus {
     line-height: 30px;
         font-size: 0.6rem;
+            color: #fff !important;
 }
+
 
 .no-child a {
     font-size: 0.6rem;
@@ -360,6 +362,7 @@ aside {
     height: 110px;
     float:none;
     border-left:0;
+    height: auto;
     margin-top: 0;
 }
 
@@ -414,7 +417,7 @@ aside {
 
 .contactus-form-container {
     padding-bottom: 70px;
-    padding-top: 220px;
+    padding-top: 50px;
 }
 
 .success {
@@ -470,7 +473,7 @@ ul.vahed-sums {
 }
 
 div#search-course {
-    right: -114px;
+
 }
 
 #add-course-text {
@@ -491,6 +494,20 @@ span.evprofile-label {
 ul.entekhab-vahed-sums {
     margin: 0 auto 50px;
 }
+
+
+
+#sc-input {
+  width: 85px;
+}
+
+#course-code {
+    width: 98%;
+}
+
+ #c-id {
+    display: none;
+ }
 
 /**************************************************************** entekhab vahed ****************************************************/
 

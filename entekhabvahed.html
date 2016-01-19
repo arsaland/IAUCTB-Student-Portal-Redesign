@@ -24,7 +24,7 @@
 		<li><a><i class="flaticon-mail3"></i><span>صندوق پستی</span></a></li>
 		<li><a><i class="flaticon-key162"></i><span>تغییر رمز عبور</span></a></li>
 		<li><a><i class="flaticon-user7"></i><span>ثبت عکس</span></a></li>
-		<li><a><i class="flaticon-arrow222"></i><span>خروج</span></a></li>
+		<li><a href="ورود" ><i class="flaticon-arrow222"></i><span>خروج</span></a></li>
 	</ul>
 	</div>
 
@@ -58,11 +58,11 @@
 
 		<ul id="accordion" class="accordion">
 			<li class="no-child">
-				<a href="home.html"><i class="flaticon-house204"></i>خانه</a>
+				<a href="صفحه-اصلی"><i class="flaticon-house204"></i>خانه</a>
 			</li> 
 
 			<li class="no-child">
-				<a style="border-right: 2px solid #647ED1; color: white; padding: 0 18px 0px 17px;" href="entekhabvahed.html"><i class="flaticon-check-box"></i>انتخاب واحد</a>
+				<a style="border-right: 2px solid #647ED1; color: white; padding: 0 18px 0px 17px;" href="انتخاب-واحد"><i class="flaticon-check-box"></i>انتخاب واحد</a>
 			</li>
 		</ul>
 		<ul class="dropdown">
@@ -80,7 +80,7 @@
 		  <li class="item-has-children"> <a href="#0"><i class="flaticon-college"></i>امور دانشجویی</a>
 		    <ul>
 				<li><a href="#0">فارغ‌التحصیلان</a></li>
-				<li><a href="omoordaneshjoo.darkhastgovahi.html">درخواست گواهی</a></li>
+				<li><a href="درخواست-گواهی">درخواست گواهی</a></li>
 				<li><a href="#0">خوابگاه</a></li>
 				<li><a href="#0">فرم‌ها</a></li>
 		    </ul>
@@ -91,7 +91,7 @@
 				<li><a href="#0">وضعیت مالی</a></li>
 				<li><a href="#0">پرداخت الکترونیکی</a></li>
 				<li><a href="#0">پیگیری پرداخت</a></li>
-				<li><a href="omoormali.mohasebegarshahrie.html">محاسبه‌گر شهریه</a></li>
+				<li><a href="محاسبه-شهریه">محاسبه‌گر شهریه</a></li>
 		    </ul>
 		  </li>
 		</ul>
@@ -109,7 +109,7 @@
 
 	<div class="content">      <!-- body of content : HERE -->	
 		<div class="page-navigation">
-			<span href="entekhabvahed.html" class="product-navigation-link" >انتخاب واحد</span> 
+			<span href="انتخاب-واحد" class="product-navigation-link" >انتخاب واحد</span> 
 			<span class="product-navigation-link" ></span> 
 			<span href="" class="product-navigation-link" ></span>
 		</div>
@@ -118,14 +118,15 @@
 		
 				<div id="govahi">				
 						<div id="course-code">
+							<div id="ent-dars">
 							<label class="entekhabv-label">کد درس:</label>
 							<input class="entekhabv-input" name="name" placeholder="">
 							<span id="add-course-text-icon"><i class="flaticon-rounded54"></i></span><span id="add-course-text">انتخاب درس</span>
+							</div>
 							<br>
-
 							<div id="search-course">
 							<label class="entekhabv-label">نام درس:</label>
-							<input class="entekhabv-input" style="width:166px" name="name" placeholder="">
+							<input class="entekhabv-input" id="sc-input" name="name" placeholder="">
 							<span id="add-course-text-icon"><i class="flaticon-magnifier12"></i></span><span id="add-course-text">جستجو</span>
 							</div>
 						</div>
@@ -134,7 +135,7 @@
 							<table class="select-course-table">
 												<thead>
 												<tr>
-													<th>کد درس</th>
+													<th id="c-id">کد درس</th>
 													<th>نام درس</th>
 													<th>واحد نظری</th>
 													<th>واحد عملی</th>
@@ -146,7 +147,7 @@
 												</thead>
 												<tbody>
 												<tr>
-													<td>۱۶۱۳</td>
+													<td id="c-id">۱۶۱۳</td>
 													<td>نظریه زبانهاوماشینها</td>
 													<td>۳.۰</td>
 													<td>۰.۰</td>
@@ -156,7 +157,7 @@
 													<td><i id="delete-course" class="flaticon-delete85"></i></td>
 												</tr>
 												<tr>
-													<td>۱۰۱۶</td>
+													<td id="c-id">۱۰۱۶</td>
 													<td>طراحی الگوریتم‌ها</td>
 													<td>۳.۰</td>
 													<td>۰.۰</td>
@@ -166,7 +167,7 @@
 													<td><i id="delete-course" class="flaticon-delete85"></i></td>
 												</tr>
 												<tr>
-													<td>۹۴۳</td>
+													<td id="c-id">۹۴۳</td>
 													<td>مدارهای منطقی</td>
 													<td>۳.۰</td>
 													<td>۰.۰</td>
@@ -230,11 +231,11 @@
 
 		<ul class="cd-navigation">
 			<li class="no-child">
-				<a  href="home.html"><i class="flaticon-house204"></i>خانه</a>
+				<a  href="صفحه-اصلی"><i class="flaticon-house204"></i>خانه</a>
 			</li> 
 
 			<li class="no-child">
-				<a style="border-right: 2px solid #647ED1; color: white; padding: 0 18px 0px 17px;" href="entekhabvahed.html"><i class="flaticon-check-box"></i>انتخاب واحد</a>
+				<a style="border-right: 2px solid #647ED1; color: white; padding: 0 18px 0px 17px;" href="انتخاب-واحد"><i class="flaticon-check-box"></i>انتخاب واحد</a>
 			</li> 
 
 			<li class="item-has-children">
@@ -253,7 +254,7 @@
 				<a href="#0"><i class="flaticon-college"></i>امور دانشجویی</a>
 				<ul class="sub-menu">
 					<li><a href="#0">فارغ‌التحصیلان</a></li>
-					<li><a href="omoordaneshjoo.darkhastgovahi.html">درخواست گواهی</a></li>
+					<li><a href="درخواست-گواهی">درخواست گواهی</a></li>
 					<li><a href="#0">خوابگاه</a></li>
 					<li><a href="#0">فرم‌ها</a></li>
 				</ul>
@@ -265,7 +266,7 @@
 					<li><a href="#0">وضعیت مالی</a></li>
 					<li><a href="#0">پرداخت الکترونیکی</a></li>
 					<li><a href="#0">پیگیری پرداخت</a></li>
-					<li><a href="omoormali.mohasebegarshahrie.html">محاسبه‌گر شهریه</a></li>
+					<li><a href="محاسبه-شهریه">محاسبه‌گر شهریه</a></li>
 				</ul>
 			</li> <!-- item-has-children -->
 

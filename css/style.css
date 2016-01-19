@@ -14,10 +14,39 @@ button:focus {
     outline: none;
 }
 
+label {
+    /* display: inline-block; */
+    max-width: none !important;
+    margin-bottom: initial !important;
+    font-weight: initial !important;
+}
+
+
+html {
+    font-size: initial !important;
+    -webkit-tap-highlight-color: none !important;
+}
+
+a:focus, a:hover {
+    color: none !important;
+    text-decoration: none !important;
+}
+
+
+th {
+   text-align: initial !important;
+}
+
+}
 
 body {
 	overflow-x: hidden;
 	margin:auto;
+	font-family: none !important;
+    font-size: 0 !important;
+    line-height: normal !important;
+    color: none !important;
+    background-color: none !important;
 }
 
 footer {
@@ -214,14 +243,14 @@ margin-left: 20px;
 .item-has-children > a:hover {
   background-color:rgba(0, 45, 90, 0.8);
   transition-duration: 200ms;
-  color:#fff;
+  color:#fff !important;
 
 }
 
 .no-child a:hover {
   background-color:rgba(0, 45, 90, 0.8);
   transition-duration: 200ms;
-  color:#fff;
+  color:#fff !important;
 }
 
 .sub-menu li a:hover {
@@ -582,13 +611,16 @@ position: absolute;
 }
 
 .container {
-  width: 100%;
-  margin:0 auto;
+  width: 100% !important;
+  margin:0 auto !important;
+  padding:0 !important;
 }
 
 aside {
   width: 260px;
   height: 100%;
+  min-height: 100vh;
+  position: fixed;
   background-color: #090E33;
   float:right;
 }
@@ -622,7 +654,7 @@ padding: 15px 0 35px;
 .dropdown li ul li a:hover{
   background-color: rgba(0, 45, 90, 0.8);
   transition-duration: 200ms;
-  color: #fff;
+  color: #fff !important;
 }
 
 .dropdown li ul {
@@ -762,7 +794,7 @@ padding: 15px 0 35px;
 }
 
 .user-submenu li a:hover {
-    color: white;
+    color: white !important;
 }
 
 .user-submenu li a span {
@@ -1667,5 +1699,19 @@ span#add-course-text-icon {
 
 div#search-course {
     position: relative;
-    right: -123px;
+}
+
+#sc-input {
+  width: 165px;
+}
+
+
+
+
+.dropdown li:first-child ul li a, .dropdown li:nth-child(2) ul li:nth-child(1) a, .dropdown li:nth-child(2) ul li:nth-child(3) a, .dropdown li:nth-child(2) ul li:nth-child(4) a, .dropdown li:nth-child(3) ul li:nth-child(1) a, .dropdown li:nth-child(3) ul li:nth-child(2) a, .dropdown li:nth-child(3) ul li:nth-child(3) a {
+    color: #6B6B6B;
+}
+
+.cd-navigation li:nth-child(3) ul li a, .cd-navigation li:nth-child(4) ul li:nth-child(1) a, .cd-navigation li:nth-child(4) ul li:nth-child(3) a, .cd-navigation li:nth-child(4) ul li:nth-child(4) a, .cd-navigation li:nth-child(5) ul li:nth-child(1) a, .cd-navigation li:nth-child(5) ul li:nth-child(2) a, .cd-navigation li:nth-child(5) ul li:nth-child(3) a {
+    color: #6B6B6B;
 }
