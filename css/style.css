@@ -11,6 +11,10 @@ ul,ol {
     margin-bottom: 0 !important;
 }
 
+a:hover, a:active, a:focus {
+    outline: 0;
+}
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -38,7 +42,7 @@ a:focus, a:hover {
 
 
 th {
-   text-align: initial !important;
+   text-align: center !important;
 }
 
 }
