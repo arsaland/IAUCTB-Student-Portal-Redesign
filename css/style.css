@@ -5,7 +5,11 @@ a {
    text-decoration: none;
 }
 
-ul,ol {list-style: none;}
+ul,ol {
+	list-style: none;
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
 
 input:focus,
 select:focus,
@@ -808,6 +812,7 @@ padding: 15px 0 35px;
 
 .user-submenu a i {
     width: 11px;
+    top: -3px;
     display: block;
     right: 23px;
     position: relative;
