@@ -16,7 +16,13 @@
 
 
 @media only screen and (max-width:750px) {
-
+.exam-card-buttons {
+    width: 246px;
+}
+.exam-card-buttons ul li a {
+    width: 72px;
+        margin: 5px;
+}
 
 
 }

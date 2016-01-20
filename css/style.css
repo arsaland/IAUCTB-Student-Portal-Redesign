@@ -33,6 +33,7 @@ label {
 html {
     font-size: initial !important;
     -webkit-tap-highlight-color: none !important;
+        background-color: #F1F1F1;
 }
 
 a:focus, a:hover {
@@ -121,32 +122,41 @@ margin-left: 20px;
 .flaticon-house204:before {
   content: "\e006";
 }
-.flaticon-key162:before {
+.flaticon-jpg2:before {
   content: "\e007";
 }
-.flaticon-magnifier12:before {
+.flaticon-key162:before {
   content: "\e008";
 }
-.flaticon-mail3:before {
+.flaticon-magnifier12:before {
   content: "\e009";
 }
-.flaticon-money379:before {
+.flaticon-mail3:before {
   content: "\e00a";
 }
-.flaticon-rounded54:before {
+.flaticon-money379:before {
   content: "\e00b";
 }
-.flaticon-search1:before {
+.flaticon-paper6:before {
   content: "\e00c";
 }
-.flaticon-test1:before {
+.flaticon-pdf17:before {
   content: "\e00d";
 }
-.flaticon-user146:before {
+.flaticon-rounded54:before {
   content: "\e00e";
 }
-.flaticon-user7:before {
+.flaticon-search1:before {
   content: "\e00f";
+}
+.flaticon-test1:before {
+  content: "\e010";
+}
+.flaticon-user146:before {
+  content: "\e011";
+}
+.flaticon-user7:before {
+  content: "\e012";
 }
 
 
@@ -219,7 +229,7 @@ margin-left: 20px;
 */
 
 .no-child a {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     display: block;
     line-height: 35px;
     width: 260px;
@@ -514,7 +524,7 @@ position: absolute;
   background-color: #040825;
 }
 .item-has-children > a {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     display: block;
     line-height: 40px;
     width: 260px;
