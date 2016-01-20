@@ -3,7 +3,7 @@
     width: 95%;
 
         border: 1px solid #000;
-    margin:50px auto 35px;
+    margin:0 auto 35px;
     background-color: #F3F3F3;
     border-collapse: collapse;
 }
@@ -20,7 +20,7 @@
 .exam-card-table th { 
   background: rgb(84, 84, 84); 
   color: white; 
-      font-size: 0.65rem;
+  font-size: 0.65rem;
   font-weight: bold; 
 }
 .exam-card-table td { 
@@ -28,4 +28,21 @@
     font-size: 0.7rem;
     font-family: 'iran-sans-light';
     text-align: center;
+}
+
+.exam-card-logo {
+	width: 40px;
+	float:left;
+
+
+}
+
+.exam-avatar {
+	width: 50px;
+
+}
+
+.exam-logo-img {
+
+
 }
