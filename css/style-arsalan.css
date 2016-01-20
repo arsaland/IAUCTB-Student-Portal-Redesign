@@ -1,9 +1,9 @@
 .exam-card-table {
     font-size: 0.6rem;
-    width: 95%;
+    width: 98%;
 
         border: 1px solid #000;
-    margin:0 auto 35px;
+    margin:40px auto 10px;
     background-color: #F3F3F3;
     border-collapse: collapse;
 }
@@ -31,18 +31,151 @@
 }
 
 .exam-card-logo {
-	width: 40px;
-	float:left;
+    width: 15%;
+    float: right;
+}
 
-
+.exam-card-pic {
+    width: 15%;
+    float: right;
 }
 
 .exam-avatar {
-	width: 50px;
-
+	width: 95px;
+	float:left;
+	display: block;
+	margin: 10px 0 0 10px;
 }
 
 .exam-logo-img {
+	display: block;
+    width: 80px;
+    float:right;
+    margin: 10px 10px 0 0;
+}
+
+.exam-card-header {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.exam-card-title {
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+    float:right;
+}
+
+.exam-card-title p:nth-child(1){
+	text-align:center;
+	margin-top: 25px;
+}
+
+.exam-card-title p:nth-child(2){
+	text-align:center;
+	font-size:0.8rem;
+	font-family: iran-sans-light;
+}
 
 
+.exam-card-table-container {
+
+	width: 100%;
+	overflow-y: auto;
+	_overflow: auto;
+	margin: 0 0 1em;
+}
+
+
+.exam-card-buttons {
+    width: 335px;
+    height: 92px;
+    margin: 20px auto 0;
+
+}
+
+.exam-card-buttons ul li {
+	float:right;
+}
+
+.exam-card-buttons ul li a {
+    width: 90px;
+    position: relative;
+    height: 38px;
+    border-radius: 4px;
+    display: block;
+    background-color: rgba(0, 49, 182, 0.82);
+    margin: 10px;
+        -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: background 0.5s ease, padding 0.5s linear ,color 0.5s ease-in-out 0s,;
+    cursor: pointer;
+}
+
+.exam-card-buttons ul li a:hover {
+    background-color: #6690F9;
+    transition-duration: 200ms;
+}
+
+.exam-card-buttons ul li a i {
+    color: #fff;
+    float: left;
+    width: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.exam-card-buttons ul li a span {
+color: #fff;
+    font-family: iran-sans-light;
+    float: right;
+    top: 9px;
+    position: relative;
+    right: 10px;
+}
+
+.exam-card-header2{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.exam-card-header2 ul {
+	    width: 85%;
+    margin: 0 10% 0 0;
+        position: relative;
+    top: 18px;
+
+}
+
+.exam-card-header2 ul li {
+	float:right;
+	width: 33%;
+	margin: 3px 0;
+
+}
+
+.label-spans {
+	font-family: iran-sans-light;
+	font-size: 0.7rem;
+}
+
+.info-spans {
+	font-size: 0.7rem;
+
+}
+.exam-card {
+	border:1px solid rgba(0, 0, 0, 0.25);
+    width: 800px;
+	margin:25px auto 0;
+}
+
+.exam-card-parent {
+		width: 100%;
+	overflow-y: auto;
+	_overflow: auto;
 }
