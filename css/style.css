@@ -29,6 +29,7 @@ label {
 html {
     font-size: initial !important;
     -webkit-tap-highlight-color: none !important;
+        background-color: #F1F1F1;
 }
 
 a:focus, a:hover {
