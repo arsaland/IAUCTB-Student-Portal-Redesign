@@ -184,3 +184,10 @@
   .table {
       text-align: center;
   }
+.eterazTable tbody tr td : nth-last-child(2){
+    background-color: rgb(0, 79, 159);
+}
+.btn{
+    width: 94px;
+    font-size: .8rem;
+}
