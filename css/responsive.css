@@ -288,7 +288,7 @@ aside {
 }
 
 .user-settings {
-	top: 1px;
+	top: 0px;
 	left: 50px;
 
 }
@@ -296,6 +296,8 @@ aside {
 .user-submenu {
 	left: -47px;
 	top: 59px;	
+    left: -50px;
+    top: 60px;
 }
 
 .avatar {
