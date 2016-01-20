@@ -70,7 +70,7 @@
 					}
 						#nav > ul > li:not( :last-child ) > a
 						{
-							border-right: 1px solid #9b9fff;
+							border-left: 1px solid #9b9fff;
 						}
 						#nav > ul > li:hover > a,
 						#nav > ul:not( :hover ) > li.active > a
