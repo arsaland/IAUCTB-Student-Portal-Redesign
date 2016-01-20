@@ -1,169 +1,186 @@
   /* ------------ منو های انتخاب نیمسال ------------------------- */
-#nav
-		{
-			width: 60em; 
-			padding: 5px;
-            width:90%;
-            margin-right: auto;
-			margin-left:auto; 
-/*
+  
+  #nav {
+      width: 60em;
+      padding: 5px;
+      width: 90%;
+      margin-right: auto;
+      margin-left: auto;
+      /*
             padding-bottom: 3em;
             padding-top: 3em;
 */
-            position: relative
-		}
-
-			#nav > a
-			{
-				display: none;
-			}
-
-			#nav li
-			{
-				position: relative;
-			}
-				#nav li a
-				{
-					color: #fff;
-					display: block;
-                    text-align: center;
-				}
-				#nav li a:active
-				{
-					background-color: #002a55 !important;
-				}
-
-			#nav span:after
-			{
-				width: 0;
-				height: 0;
-				border: 0.313em solid transparent;
-				border-bottom: none;
-				border-top-color: #a2b3d9;
-				content: '';
-				vertical-align: middle;
-				display: inline-block;
-				position: relative;
-				right: 0.5em; 
-			}
-
-			/* سطح اول */
-
-			#nav > ul
-			{
-				height: 3.75em;
-				background-color: #004F9F;
-                
-			}
-				#nav > ul > li
-				{
-					width: 33.3333%;
-					height: 100%;
-					float: right;
-				}
-					#nav > ul > li > a
-					{
-						height: 100%;
-						line-height: 2.5em; 
-						text-align: center;
-                        padding-top: 10px;
-					}
-						#nav > ul > li:not( :last-child ) > a
-						{
-							border-left: 1px solid #9b9fff;
-						}
-						#nav > ul > li:hover > a,
-						#nav > ul:not( :hover ) > li.active > a
-						{
-							background-color: #2a5bb9;
-						}
-
-
-				/* سطح دوم */
-
-				#nav li ul
-				{
-					background-color: #6079CE;
-					display: none;
-					position: absolute;
-					top: 100%;
-				}
-					#nav li:hover ul
-					{
-						display: block;
-						left: 0;
-						right: 0;
-					}
-						#nav li:not( :first-child ):hover ul
-						{
-							left: -1px;
-						}
-						#nav li ul a
-						{
-							
-							border-top: 1px solid #7e96e5;
-							padding: 0.75em; 
-						}
-							#nav li ul li a:hover,
-							#nav li ul:not( :hover ) li.active a
-							{
-								background-color: #2a5bb9;
-							}
-
-  /* ------------ پایان منو های انتخاب نیمسال ------------------------- */
-
- /* ------------ نیمسال و پرینت  ------------------------- */	
-.schedule-print{
-    text-align: center;
-}
-.schedule-print a{
-    color:blue;
-}
-
-div[semester]{
-    display:none;
-}
-/* ------------ پایان نیمسال و پرینت  ------------------------- */	
-/* ------------ بارگذاری  ------------------------- */	
-.spinner {
-  width: 4rem;
-  height: 4rem;
-  display:none;
-  position: relative;
-  margin: 20% auto;
-}
-
-.double-bounce1, .double-bounce2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: #333;
-  opacity: 0.6;
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-  animation: sk-bounce 2.0s infinite ease-in-out;
-}
-
-.double-bounce2 {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
-}
-
-@-webkit-keyframes sk-bounce {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(1.0) }
-}
-
-@keyframes sk-bounce {
-  0%, 100% { 
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 50% { 
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
+      position: relative
   }
-}
-/* ------------ پایان بارگذاری  ------------------------- */	
+  
+  #nav > a {
+      display: none;
+  }
+  
+  #nav li {
+      position: relative;
+  }
+  
+  #nav li a {
+      color: #fff;
+      display: block;
+      text-align: center;
+  }
+  
+  #nav li a:active {
+      background-color: #002a55 !important;
+  }
+  
+  #nav span:after {
+      width: 0;
+      height: 0;
+      border: 0.313em solid transparent;
+      border-bottom: none;
+      border-top-color: #a2b3d9;
+      content: '';
+      vertical-align: middle;
+      display: inline-block;
+      position: relative;
+      right: 0.5em;
+  }
+  /* سطح اول */
+  
+  #nav > ul {
+      height: 3.75em;
+      background-color: #004F9F;
+  }
+  
+  #nav > ul > li {
+      width: 20%;
+      height: 100%;
+      float: right;
+  }
+  
+  #nav[barnamehaftegi] > ul > li {
+      width: 25%;
+      height: 100%;
+      float: right;
+  }
+  
+  #nav > ul > li > a {
+      height: 100%;
+      line-height: 2.5em;
+      text-align: center;
+      padding-top: 10px;
+  }
+  
+  #nav > ul > li:not(:last-child) > a {
+      border-left: 1px solid #9b9fff;
+  }
+  
+  #nav > ul > li:hover > a,
+  #nav > ul:not(:hover) > li.active > a {
+      background-color: #2a5bb9;
+  }
+  /* سطح دوم */
+  
+  #nav li ul {
+      background-color: #6079CE;
+      display: none;
+      position: absolute;
+      top: 100%;
+  }
+  
+  #nav li:hover ul {
+      display: block;
+      left: 0;
+      right: 0;
+  }
+  
+  #nav li:not(:first-child):hover ul {
+      left: -1px;
+  }
+  
+  #nav li ul a {
+      border-top: 1px solid #7e96e5;
+      padding: 0.75em;
+  }
+  
+  #nav li ul li a:hover,
+  #nav li ul:not(:hover) li.active a {
+      background-color: #2a5bb9;
+  }
+  /* ------------ پایان منو های انتخاب نیمسال ------------------------- */
+  /* ------------ نیمسال و پرینت  ------------------------- */
+  
+  .schedule-print {
+      text-align: center;
+  }
+  
+  .schedule-print a {
+      color: blue;
+  }
+  
+  div[semester] {
+      display: none;
+  }
+  /* ------------ پایان نیمسال و پرینت  ------------------------- */
+  /* ------------ بارگذاری  ------------------------- */
+  
+  .spinner {
+      width: 4rem;
+      height: 4rem;
+      display: none;
+      position: relative;
+      margin: 20% auto;
+  }
+  
+  .double-bounce1,
+  .double-bounce2 {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-color: #333;
+      opacity: 0.6;
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+      animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  
+  .double-bounce2 {
+      -webkit-animation-delay: -1.0s;
+      animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-bounce {
+      0%,
+      100% {
+          -webkit-transform: scale(0.0)
+      }
+      50% {
+          -webkit-transform: scale(1.0)
+      }
+  }
+  
+  @keyframes sk-bounce {
+      0%,
+      100% {
+          transform: scale(0.0);
+          -webkit-transform: scale(0.0);
+      }
+      50% {
+          transform: scale(1.0);
+          -webkit-transform: scale(1.0);
+      }
+  }
+  /* ------------ پایان بارگذاری  ------------------------- */
+  
+  .aveInfo {
+      color: white;
+      background-color: rgb(0, 79, 159);
+  }
+  
+  .aveInfo td:first-child {
+      background-color: rgb(84, 84, 84);
+  }
+  
+  .table {
+      text-align: center;
+  }
