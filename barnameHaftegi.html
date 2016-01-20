@@ -14,6 +14,7 @@
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+        <script src="js/jquery.min.js"></script>
 	</head>
 
 <body>
@@ -121,48 +122,913 @@
 								<!-- az inja be bad body e asli e page haas taaa akhare content -->
 		
 				<div id="govahi">				
-						
+                    <h4 style="text-align:center;margin-top:1em;">انتخاب نیمسال تحصیلی</h4>
 <div id="nav" role="navigation">
-    <ul>
+    <ul class="clearfix">
         <li>
-            <a href="" aria-haspopup="true">91-92</a>
+            <a aria-haspopup="true"><span>91-92</span></a>
             <ul>
-                <li><a href="">نیمسال اول</a></li>
-                <li><a href="">نیمسال دوم</a></li>
-                <li><a href="">تابستان</a></li>
+                <li><a href="#" onClick="semesterProgram('1-91-92');">نیمسال اول</a></li>
+                <li><a href="#" onClick="semesterProgram('2-91-92');">نیمسال دوم</a></li>
+                <li><a href="#" onClick="semesterProgram('t-91-92');">تابستان</a></li>
             </ul>
         </li>
         <li>
-            <a href="" aria-haspopup="true">92-93</a>
+            <a aria-haspopup="true"><span>92-93</span></a>
             <ul>
-                <li><a href="">نیمسال اول</a></li>
-                <li><a href="">نیمسال دوم</a></li>
-                <li><a href="">تابستان</a></li>
+                <li><a href="#" onClick="semesterProgram('1-92-93');">نیمسال اول</a></li>
+                <li><a href="#" onClick="semesterProgram('2-92-93');">نیمسال دوم</a></li>
+                <li><a href="#" onClick="semesterProgram('t-92-93');">تابستان</a></li>
             </ul>
         </li>
         <li>
-            <a href="" aria-haspopup="true">93-94</a>
+            <a aria-haspopup="true"><span>93-94</span></a>
             <ul>
-                <li><a href="">نیمسال اول</a></li>
-                <li><a href="">نیمسال دوم</a></li>
-                <li><a href="">تابستان</a></li>
+                <li><a href="#" onClick="semesterProgram('1-93-94');">نیمسال اول</a></li>
             </ul>
         </li>
-        <li>
-            <a href="" aria-haspopup="true">95-96</a>
-            <ul>
-                <li><a href="">نیمسال اول</a></li>
-                <li><a href="">نیمسال دوم</a></li>
-                <li><a href="">تابستان</a></li>
-            </ul>
-        </li>
+
     </ul>
 </div>
-                        
+                    
+<!--                     برنامه ترم 1-93-94-->
 
-						
+                    <div semester="1-93-94" style="display:block;">
+                <div class="schedule-print">
+                    <h5>نیمسال اول 93-94</h5>
+                    <a href="#">پرینت برگه واحد گیری</a>        
+                </div>
+<div class="table-responsive"> 
+                   <table class="table select-course-table"><tbody>
+<tr><th scope="col">نام درس</th><th scope="col">و. نظری</th><th scope="col">و. عملی</th><th scope="col">روز وساعت و محل تشکيل کلاس</th><th scope="col">ساعت امتحان</th><th scope="col">تاریخ امتحان</th><th scope="col">نام استاد</th></tr>
+<tr>
+<td>سيستمهاي عامل[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>پنج شنبه07:30 09:55 ش 305ف</td>
+<td>14:00</td>
+<td>28/10/94</td>
+<td>اصغري پروانه</td>
+</tr>
+<tr>
+<td>ريزپردازنده 1[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>شنبه07:30 09:55 ش 502ف</td>
+<td>11:00</td>
+<td>20/10/94</td>
+<td>آغازاريان واهه</td>
+</tr>
+<tr>
+<td>مهندسي اينترنت[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه07:30 09:55 ش 520س جديد</td>
+<td>11:00</td>
+<td>28/10/94</td>
+<td>رهنمون رامين</td>
+</tr>
+<tr>
+<td>مدارهاي منطقي پيشرفته[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه17:06 19:30 ش 305ف</td>
+<td>08:30</td>
+<td>24/10/94</td>
+<td>1 1</td>
+</tr>
+<tr>
+<td>شبكه هاي كامپيوتري[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه15:26 17:50 ش 401ف</td>
+<td>14:00</td>
+<td>21/10/94</td>
+<td>غلام نژاد پژمان</td>
+</tr>
+<tr>
+<td>مدارهاي الكتريكي 2[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه07:30 09:55 ش 308ف</td>
+<td>14:00</td>
+<td>27/10/94</td>
+<td>كياني پوريا</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدار هاي منطقي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>پنج شنبه16:20 17:50</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدارهاي الكترونيكي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>چهار شنبه09:10 10:40</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>كردتودشكي الهام</td>
+</tr>
+</tbody>
+</table>
+                    </div>
+                    </div>
+<!--                    پایان برنامه ترم 1-93-94-->
+<!--                     برنامه ترم 1-93-94-->
 
-				</div>	
+                    <div semester="1-93-94">
+                <div class="schedule-print">
+                    <h5>نیمسال اول 93-94</h5>
+                    <a href="#">پرینت برگه واحد گیری</a>        
+                </div>
+<div class="table-responsive"> 
+                   <table class="table select-course-table"><tbody>
+<tr><th scope="col">نام درس</th><th scope="col">و. نظری</th><th scope="col">و. عملی</th><th scope="col">روز وساعت و محل تشکيل کلاس</th><th scope="col">ساعت امتحان</th><th scope="col">تاریخ امتحان</th><th scope="col">نام استاد</th></tr>
+<tr>
+<td>سيستمهاي عامل[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>پنج شنبه07:30 09:55 ش 305ف</td>
+<td>14:00</td>
+<td>28/10/94</td>
+<td>اصغري پروانه</td>
+</tr>
+<tr>
+<td>ريزپردازنده 1[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>شنبه07:30 09:55 ش 502ف</td>
+<td>11:00</td>
+<td>20/10/94</td>
+<td>آغازاريان واهه</td>
+</tr>
+<tr>
+<td>مهندسي اينترنت[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه07:30 09:55 ش 520س جديد</td>
+<td>11:00</td>
+<td>28/10/94</td>
+<td>رهنمون رامين</td>
+</tr>
+<tr>
+<td>مدارهاي منطقي پيشرفته[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه17:06 19:30 ش 305ف</td>
+<td>08:30</td>
+<td>24/10/94</td>
+<td>1 1</td>
+</tr>
+<tr>
+<td>شبكه هاي كامپيوتري[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه15:26 17:50 ش 401ف</td>
+<td>14:00</td>
+<td>21/10/94</td>
+<td>غلام نژاد پژمان</td>
+</tr>
+<tr>
+<td>مدارهاي الكتريكي 2[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه07:30 09:55 ش 308ف</td>
+<td>14:00</td>
+<td>27/10/94</td>
+<td>كياني پوريا</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدار هاي منطقي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>پنج شنبه16:20 17:50</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدارهاي الكترونيكي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>چهار شنبه09:10 10:40</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>كردتودشكي الهام</td>
+</tr>
+</tbody>
+</table>
+                    </div>
+                    </div>
+<!--                    پایان برنامه ترم 1-93-94-->
+                    <!--                     برنامه ترم 1-93-94-->
+
+                    <div semester="1-93-94">
+                <div class="schedule-print">
+                    <h5>نیمسال اول 93-94</h5>
+                    <a href="#">پرینت برگه واحد گیری</a>        
+                </div>
+<div class="table-responsive"> 
+                   <table class="table select-course-table"><tbody>
+<tr><th scope="col">نام درس</th><th scope="col">و. نظری</th><th scope="col">و. عملی</th><th scope="col">روز وساعت و محل تشکيل کلاس</th><th scope="col">ساعت امتحان</th><th scope="col">تاریخ امتحان</th><th scope="col">نام استاد</th></tr>
+<tr>
+<td>سيستمهاي عامل[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>پنج شنبه07:30 09:55 ش 305ف</td>
+<td>14:00</td>
+<td>28/10/94</td>
+<td>اصغري پروانه</td>
+</tr>
+<tr>
+<td>ريزپردازنده 1[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>شنبه07:30 09:55 ش 502ف</td>
+<td>11:00</td>
+<td>20/10/94</td>
+<td>آغازاريان واهه</td>
+</tr>
+<tr>
+<td>مهندسي اينترنت[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه07:30 09:55 ش 520س جديد</td>
+<td>11:00</td>
+<td>28/10/94</td>
+<td>رهنمون رامين</td>
+</tr>
+<tr>
+<td>مدارهاي منطقي پيشرفته[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه17:06 19:30 ش 305ف</td>
+<td>08:30</td>
+<td>24/10/94</td>
+<td>1 1</td>
+</tr>
+<tr>
+<td>شبكه هاي كامپيوتري[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه15:26 17:50 ش 401ف</td>
+<td>14:00</td>
+<td>21/10/94</td>
+<td>غلام نژاد پژمان</td>
+</tr>
+<tr>
+<td>مدارهاي الكتريكي 2[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه07:30 09:55 ش 308ف</td>
+<td>14:00</td>
+<td>27/10/94</td>
+<td>كياني پوريا</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدار هاي منطقي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>پنج شنبه16:20 17:50</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدارهاي الكترونيكي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>چهار شنبه09:10 10:40</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>كردتودشكي الهام</td>
+</tr>
+</tbody>
+</table>
+                    </div>
+                    </div>
+<!--                    پایان برنامه ترم 1-93-94-->
+                    <!--                     برنامه ترم 1-93-94-->
+
+                    <div semester="1-93-94">
+                <div class="schedule-print">
+                    <h5>نیمسال اول 93-94</h5>
+                    <a href="#">پرینت برگه واحد گیری</a>        
+                </div>
+<div class="table-responsive"> 
+                   <table class="table select-course-table"><tbody>
+<tr><th scope="col">نام درس</th><th scope="col">و. نظری</th><th scope="col">و. عملی</th><th scope="col">روز وساعت و محل تشکيل کلاس</th><th scope="col">ساعت امتحان</th><th scope="col">تاریخ امتحان</th><th scope="col">نام استاد</th></tr>
+<tr>
+<td>سيستمهاي عامل[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>پنج شنبه07:30 09:55 ش 305ف</td>
+<td>14:00</td>
+<td>28/10/94</td>
+<td>اصغري پروانه</td>
+</tr>
+<tr>
+<td>ريزپردازنده 1[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>شنبه07:30 09:55 ش 502ف</td>
+<td>11:00</td>
+<td>20/10/94</td>
+<td>آغازاريان واهه</td>
+</tr>
+<tr>
+<td>مهندسي اينترنت[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه07:30 09:55 ش 520س جديد</td>
+<td>11:00</td>
+<td>28/10/94</td>
+<td>رهنمون رامين</td>
+</tr>
+<tr>
+<td>مدارهاي منطقي پيشرفته[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه17:06 19:30 ش 305ف</td>
+<td>08:30</td>
+<td>24/10/94</td>
+<td>1 1</td>
+</tr>
+<tr>
+<td>شبكه هاي كامپيوتري[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه15:26 17:50 ش 401ف</td>
+<td>14:00</td>
+<td>21/10/94</td>
+<td>غلام نژاد پژمان</td>
+</tr>
+<tr>
+<td>مدارهاي الكتريكي 2[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه07:30 09:55 ش 308ف</td>
+<td>14:00</td>
+<td>27/10/94</td>
+<td>كياني پوريا</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدار هاي منطقي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>پنج شنبه16:20 17:50</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدارهاي الكترونيكي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>چهار شنبه09:10 10:40</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>كردتودشكي الهام</td>
+</tr>
+</tbody>
+</table>
+                    </div>
+                    </div>
+<!--                    پایان برنامه ترم 1-93-94-->
+                    <!--                     برنامه ترم 1-93-94-->
+
+                    <div semester="t-92-93">
+                <div class="schedule-print">
+                    <h5>تابستان 92-93</h5>
+                    <a href="#">پرینت برگه واحد گیری</a>        
+                </div>
+<div class="table-responsive"> 
+                   <table class="table select-course-table"><tbody>
+<tr><th scope="col">نام درس</th><th scope="col">و. نظری</th><th scope="col">و. عملی</th><th scope="col">روز وساعت و محل تشکيل کلاس</th><th scope="col">ساعت امتحان</th><th scope="col">تاریخ امتحان</th><th scope="col">نام استاد</th></tr>
+<tr>
+<td>سيستمهاي عامل[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>پنج شنبه07:30 09:55 ش 305ف</td>
+<td>14:00</td>
+<td>28/10/94</td>
+<td>اصغري پروانه</td>
+</tr>
+<tr>
+<td>ريزپردازنده 1[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>شنبه07:30 09:55 ش 502ف</td>
+<td>11:00</td>
+<td>20/10/94</td>
+<td>آغازاريان واهه</td>
+</tr>
+<tr>
+<td>مهندسي اينترنت[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه07:30 09:55 ش 520س جديد</td>
+<td>11:00</td>
+<td>28/10/94</td>
+<td>رهنمون رامين</td>
+</tr>
+<tr>
+<td>مدارهاي منطقي پيشرفته[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه17:06 19:30 ش 305ف</td>
+<td>08:30</td>
+<td>24/10/94</td>
+<td>1 1</td>
+</tr>
+<tr>
+<td>شبكه هاي كامپيوتري[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه15:26 17:50 ش 401ف</td>
+<td>14:00</td>
+<td>21/10/94</td>
+<td>غلام نژاد پژمان</td>
+</tr>
+<tr>
+<td>مدارهاي الكتريكي 2[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه07:30 09:55 ش 308ف</td>
+<td>14:00</td>
+<td>27/10/94</td>
+<td>كياني پوريا</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدار هاي منطقي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>پنج شنبه16:20 17:50</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدارهاي الكترونيكي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>چهار شنبه09:10 10:40</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>كردتودشكي الهام</td>
+</tr>
+</tbody>
+</table>
+                    </div>
+                    </div>
+<!--                    پایان برنامه ترم 1-93-94-->
+                    <!--                     برنامه ترم 1-93-94-->
+
+                    <div semester="2-92-93">
+                <div class="schedule-print">
+                    <h5>نیمسال دوم 92-93</h5>
+                    <a href="#">پرینت برگه واحد گیری</a>        
+                </div>
+<div class="table-responsive"> 
+                   <table class="table select-course-table"><tbody>
+<tr><th scope="col">نام درس</th><th scope="col">و. نظری</th><th scope="col">و. عملی</th><th scope="col">روز وساعت و محل تشکيل کلاس</th><th scope="col">ساعت امتحان</th><th scope="col">تاریخ امتحان</th><th scope="col">نام استاد</th></tr>
+<tr>
+<td>سيستمهاي عامل[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>پنج شنبه07:30 09:55 ش 305ف</td>
+<td>14:00</td>
+<td>28/10/94</td>
+<td>اصغري پروانه</td>
+</tr>
+<tr>
+<td>ريزپردازنده 1[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>شنبه07:30 09:55 ش 502ف</td>
+<td>11:00</td>
+<td>20/10/94</td>
+<td>آغازاريان واهه</td>
+</tr>
+<tr>
+<td>مهندسي اينترنت[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه07:30 09:55 ش 520س جديد</td>
+<td>11:00</td>
+<td>28/10/94</td>
+<td>رهنمون رامين</td>
+</tr>
+<tr>
+<td>مدارهاي منطقي پيشرفته[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه17:06 19:30 ش 305ف</td>
+<td>08:30</td>
+<td>24/10/94</td>
+<td>1 1</td>
+</tr>
+<tr>
+<td>شبكه هاي كامپيوتري[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه15:26 17:50 ش 401ف</td>
+<td>14:00</td>
+<td>21/10/94</td>
+<td>غلام نژاد پژمان</td>
+</tr>
+<tr>
+<td>مدارهاي الكتريكي 2[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه07:30 09:55 ش 308ف</td>
+<td>14:00</td>
+<td>27/10/94</td>
+<td>كياني پوريا</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدار هاي منطقي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>پنج شنبه16:20 17:50</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدارهاي الكترونيكي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>چهار شنبه09:10 10:40</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>كردتودشكي الهام</td>
+</tr>
+</tbody>
+</table>
+                    </div>
+                    </div>
+<!--                    پایان برنامه ترم 1-93-94-->
+                    <!--                     برنامه ترم 1-93-94-->
+
+                    <div semester="1-92-93">
+                <div class="schedule-print">
+                    <h5>نیمسال اول 92-93</h5>
+                    <a href="#">پرینت برگه واحد گیری</a>        
+                </div>
+<div class="table-responsive"> 
+                   <table class="table select-course-table"><tbody>
+<tr><th scope="col">نام درس</th><th scope="col">و. نظری</th><th scope="col">و. عملی</th><th scope="col">روز وساعت و محل تشکيل کلاس</th><th scope="col">ساعت امتحان</th><th scope="col">تاریخ امتحان</th><th scope="col">نام استاد</th></tr>
+<tr>
+<td>سيستمهاي عامل[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>پنج شنبه07:30 09:55 ش 305ف</td>
+<td>14:00</td>
+<td>28/10/94</td>
+<td>اصغري پروانه</td>
+</tr>
+<tr>
+<td>ريزپردازنده 1[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>شنبه07:30 09:55 ش 502ف</td>
+<td>11:00</td>
+<td>20/10/94</td>
+<td>آغازاريان واهه</td>
+</tr>
+<tr>
+<td>مهندسي اينترنت[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه07:30 09:55 ش 520س جديد</td>
+<td>11:00</td>
+<td>28/10/94</td>
+<td>رهنمون رامين</td>
+</tr>
+<tr>
+<td>مدارهاي منطقي پيشرفته[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه17:06 19:30 ش 305ف</td>
+<td>08:30</td>
+<td>24/10/94</td>
+<td>1 1</td>
+</tr>
+<tr>
+<td>شبكه هاي كامپيوتري[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه15:26 17:50 ش 401ف</td>
+<td>14:00</td>
+<td>21/10/94</td>
+<td>غلام نژاد پژمان</td>
+</tr>
+<tr>
+<td>مدارهاي الكتريكي 2[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه07:30 09:55 ش 308ف</td>
+<td>14:00</td>
+<td>27/10/94</td>
+<td>كياني پوريا</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدار هاي منطقي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>پنج شنبه16:20 17:50</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدارهاي الكترونيكي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>چهار شنبه09:10 10:40</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>كردتودشكي الهام</td>
+</tr>
+</tbody>
+</table>
+                    </div>
+                    </div>
+<!--                    پایان برنامه ترم 1-93-94-->
+                    <!--                     برنامه ترم 1-93-94-->
+
+                    <div semester="t-91-92">
+                <div class="schedule-print">
+                    <h5>تابستان 91-92</h5>
+                    <a href="#">پرینت برگه واحد گیری</a>        
+                </div>
+<div class="table-responsive"> 
+                   <table class="table select-course-table"><tbody>
+<tr><th scope="col">نام درس</th><th scope="col">و. نظری</th><th scope="col">و. عملی</th><th scope="col">روز وساعت و محل تشکيل کلاس</th><th scope="col">ساعت امتحان</th><th scope="col">تاریخ امتحان</th><th scope="col">نام استاد</th></tr>
+<tr>
+<td>سيستمهاي عامل[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>پنج شنبه07:30 09:55 ش 305ف</td>
+<td>14:00</td>
+<td>28/10/94</td>
+<td>اصغري پروانه</td>
+</tr>
+<tr>
+<td>ريزپردازنده 1[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>شنبه07:30 09:55 ش 502ف</td>
+<td>11:00</td>
+<td>20/10/94</td>
+<td>آغازاريان واهه</td>
+</tr>
+<tr>
+<td>مهندسي اينترنت[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه07:30 09:55 ش 520س جديد</td>
+<td>11:00</td>
+<td>28/10/94</td>
+<td>رهنمون رامين</td>
+</tr>
+<tr>
+<td>مدارهاي منطقي پيشرفته[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه17:06 19:30 ش 305ف</td>
+<td>08:30</td>
+<td>24/10/94</td>
+<td>1 1</td>
+</tr>
+<tr>
+<td>شبكه هاي كامپيوتري[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه15:26 17:50 ش 401ف</td>
+<td>14:00</td>
+<td>21/10/94</td>
+<td>غلام نژاد پژمان</td>
+</tr>
+<tr>
+<td>مدارهاي الكتريكي 2[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه07:30 09:55 ش 308ف</td>
+<td>14:00</td>
+<td>27/10/94</td>
+<td>كياني پوريا</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدار هاي منطقي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>پنج شنبه16:20 17:50</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدارهاي الكترونيكي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>چهار شنبه09:10 10:40</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>كردتودشكي الهام</td>
+</tr>
+</tbody>
+</table>
+                    </div>
+                    </div>
+<!--                    پایان برنامه ترم 1-93-94-->
+                    <!--                     برنامه ترم 1-93-94-->
+
+                    <div semester="2-91-92">
+                <div class="schedule-print">
+                    <h5>نیمسال دوم 91-92</h5>
+                    <a href="#">پرینت برگه واحد گیری</a>        
+                </div>
+<div class="table-responsive"> 
+                   <table class="table select-course-table"><tbody>
+<tr><th scope="col">نام درس</th><th scope="col">و. نظری</th><th scope="col">و. عملی</th><th scope="col">روز وساعت و محل تشکيل کلاس</th><th scope="col">ساعت امتحان</th><th scope="col">تاریخ امتحان</th><th scope="col">نام استاد</th></tr>
+<tr>
+<td>سيستمهاي عامل[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>پنج شنبه07:30 09:55 ش 305ف</td>
+<td>14:00</td>
+<td>28/10/94</td>
+<td>اصغري پروانه</td>
+</tr>
+<tr>
+<td>ريزپردازنده 1[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>شنبه07:30 09:55 ش 502ف</td>
+<td>11:00</td>
+<td>20/10/94</td>
+<td>آغازاريان واهه</td>
+</tr>
+<tr>
+<td>مهندسي اينترنت[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه07:30 09:55 ش 520س جديد</td>
+<td>11:00</td>
+<td>28/10/94</td>
+<td>رهنمون رامين</td>
+</tr>
+<tr>
+<td>مدارهاي منطقي پيشرفته[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه17:06 19:30 ش 305ف</td>
+<td>08:30</td>
+<td>24/10/94</td>
+<td>1 1</td>
+</tr>
+<tr>
+<td>شبكه هاي كامپيوتري[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه15:26 17:50 ش 401ف</td>
+<td>14:00</td>
+<td>21/10/94</td>
+<td>غلام نژاد پژمان</td>
+</tr>
+<tr>
+<td>مدارهاي الكتريكي 2[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه07:30 09:55 ش 308ف</td>
+<td>14:00</td>
+<td>27/10/94</td>
+<td>كياني پوريا</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدار هاي منطقي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>پنج شنبه16:20 17:50</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدارهاي الكترونيكي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>چهار شنبه09:10 10:40</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>كردتودشكي الهام</td>
+</tr>
+</tbody>
+</table>
+                    </div>
+                    </div>
+<!--                    پایان برنامه ترم 1-91-92-->
+                    <!--                     برنامه ترم 1-91-92-->
+
+                    <div semester="1-91-92">
+                <div class="schedule-print">
+                    <h5>نیمسال اول 91-92</h5>
+                    <a href="#">پرینت برگه واحد گیری</a>        
+                </div>
+<div class="table-responsive"> 
+                   <table class="table select-course-table"><tbody>
+<tr><th scope="col">نام درس</th><th scope="col">و. نظری</th><th scope="col">و. عملی</th><th scope="col">روز وساعت و محل تشکيل کلاس</th><th scope="col">ساعت امتحان</th><th scope="col">تاریخ امتحان</th><th scope="col">نام استاد</th></tr>
+<tr>
+<td>سيستمهاي عامل[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>پنج شنبه07:30 09:55 ش 305ف</td>
+<td>14:00</td>
+<td>28/10/94</td>
+<td>اصغري پروانه</td>
+</tr>
+<tr>
+<td>ريزپردازنده 1[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>شنبه07:30 09:55 ش 502ف</td>
+<td>11:00</td>
+<td>20/10/94</td>
+<td>آغازاريان واهه</td>
+</tr>
+<tr>
+<td>مهندسي اينترنت[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه07:30 09:55 ش 520س جديد</td>
+<td>11:00</td>
+<td>28/10/94</td>
+<td>رهنمون رامين</td>
+</tr>
+<tr>
+<td>مدارهاي منطقي پيشرفته[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>دوشنبه17:06 19:30 ش 305ف</td>
+<td>08:30</td>
+<td>24/10/94</td>
+<td>1 1</td>
+</tr>
+<tr>
+<td>شبكه هاي كامپيوتري[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه15:26 17:50 ش 401ف</td>
+<td>14:00</td>
+<td>21/10/94</td>
+<td>غلام نژاد پژمان</td>
+</tr>
+<tr>
+<td>مدارهاي الكتريكي 2[م]</td>
+<td>3.0</td>
+<td>0.0</td>
+<td>يکشنبه07:30 09:55 ش 308ف</td>
+<td>14:00</td>
+<td>27/10/94</td>
+<td>كياني پوريا</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدار هاي منطقي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>پنج شنبه16:20 17:50</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>آزمايشگاه مدارهاي الكترونيكي[م]</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>چهار شنبه09:10 10:40</td>
+<td>00:00</td>
+<td>/ /</td>
+<td>كردتودشكي الهام</td>
+</tr>
+</tbody>
+</table>
+                    </div>
+                    </div>
+<!--                    پایان برنامه ترم 1-91-92-->
+                   
+                    
+                    <div class="spinner">
+  <div class="double-bounce1"></div>
+  <div class="double-bounce2"></div>
+</div>
+                    
+				</div>	<!--end of govahi-->
 
 
 
@@ -171,7 +1037,22 @@
 
 
 
+<script >
+    	$(function()
+	{
+		$('#nav li:has(ul)').doubleTapToGo();
+	});
+    
+    //---------کد مربوط به لینک های منو---------------
+    function semesterProgram(semester) {
+        
+                $("div[semester]").fadeOut(300);
+                $(".spinner").delay(300).fadeIn(100).delay(3000).fadeOut(300);
+                $("div[semester='" + semester + "']").delay(3800).fadeIn(500);
+        
+}
 
+        </script>
 
 		</div>  <!-- content -->	
 
@@ -261,8 +1142,9 @@
 		</ul> <!-- cd-navigation -->
 </nav>
 
-<script src="js/jquery.min.js"></script>
+
 <script src="js/modernizr.js"></script>
+<script src="js/doubletaptogo.min.js"></script>    
 <script src="js/tendina.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 <script src="js/jquery-ui.js"></script>

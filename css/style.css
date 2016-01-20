@@ -1456,6 +1456,7 @@ span.profile-text {
     position: relative;
     overflow: hidden;
     background-color:white;
+    min-height: 70vh;
 }
 
 /**************************************************************** darkhast govahi ****************************************************/
