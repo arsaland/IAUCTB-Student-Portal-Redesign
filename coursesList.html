@@ -118,46 +118,28 @@
             <div class="content">
                 <!-- body of content : HERE -->
                 <div class="page-navigation">
-                    <span href="انتخاب-واحد" class="product-navigation-link">انتخاب واحد</span>
-                    <span class="product-navigation-link"></span>
-                    <span href="" class="product-navigation-link"></span>
+                    <span href="انتخاب-واحد" class="product-navigation-link">امور آموزشی</span>
+                    <span class="product-navigation-link">/</span>
+                    <span href="" class="product-navigation-link">لیست دروس</span>
                 </div>
 
                 <!-- az inja be bad body e asli e page haas taaa akhare content -->
 
                 <div id="govahi">
-                    <h4 style="text-align:center;margin-top:1em;">انتخاب نیمسال تحصیلی</h4>
+                    <h4 style="text-align:center;margin-top:1em;">انتخاب گروه درسی</h4>
                     <div id="nav" role="navigation" barnamehaftegi="">
                         <ul class="clearfix">
-                            <li>
-                                <a aria-haspopup="true"><span>91-92</span></a>
-                                <ul>
-                                    <li><a href="#" onClick="semesterProgram('1-91-92');">نیمسال اول</a></li>
-                                    <li><a href="#" onClick="semesterProgram('2-91-92');">نیمسال دوم</a></li>
-                                    <li><a href="#" onClick="semesterProgram('t-91-92');">تابستان</a></li>
-                                </ul>
+                            <li typo="omoomi">
+                                <a href="#" aria-haspopup="true" onclick="toggleFilter('omoomi');">دروس عمومی</a>
                             </li>
-                            <li>
-                                <a aria-haspopup="true"><span>92-93</span></a>
-                                <ul>
-                                    <li><a href="#" onClick="semesterProgram('1-92-93');">نیمسال اول</a></li>
-                                    <li><a href="#" onClick="semesterProgram('2-92-93');">نیمسال دوم</a></li>
-                                    <li><a href="#" onClick="semesterProgram('t-92-93');">تابستان</a></li>
-                                </ul>
+                            <li typo="paye">
+                                <a href="#" aria-haspopup="true" onclick="toggleFilter('paye');">علوم پایه</a>
                             </li>
-                            <li>
-                                <a aria-haspopup="true"><span>93-94</span></a>
-                                <ul>
-                                    <li><a href="#" onClick="semesterProgram('1-93-94');">نیمسال اول</a></li>
-                                    <li><a href="#" onClick="semesterProgram('2-93-94');">نیمسال دوم</a></li>
-                                    <li><a href="#" onClick="semesterProgram('t-93-94');">تابستان</a></li>
-                                </ul>
+                            <li typo="asli">
+                                <a href="#" aria-haspopup="true" onclick="toggleFilter('asli');">دروس اصلی</a>
                             </li>
-                            <li>
-                                <a aria-haspopup="true"><span>94-95</span></a>
-                                <ul>
-                                    <li><a href="#" onClick="semesterProgram('1-94-95');">نیمسال اول</a></li>
-                                </ul>
+                            <li typo="takhasosi">
+                                <a href="#" aria-haspopup="true" onclick="toggleFilter('takhasosi');">دروس تخصصی</a>
                             </li>
 
                         </ul>
@@ -187,7 +169,7 @@
 <td>00:00</td>
 <td>/ /</td>
 <td>سرآباداني حسين</td>
-<td><button class="btn btn-info btn-sm" type="button">توضیحات</button></td>
+<td><button class="btn btn-info btn-sm" type="button" onclick="alert('پیشنیاز : معماری کامپیوتر\nقیمت : 500،000 ریال ')">توضیحات</button></td>
 </tr>
 <tr>
 <td>42097</td>
@@ -502,6 +484,9 @@
                         $("div[semester='" + semester + "']").delay(3800).fadeIn(500);
 
                     }
+                    function toggleFilter(typo) {
+                        $("li[typo='" + typo + "']>a").toggleClass("typeActive");
+                    };
                 </script>
 
             </div>

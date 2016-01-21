@@ -49,6 +49,10 @@
         width: 100%;
         float: none;
     }
+    #nav[barnamehaftegi] > ul > li {
+        width: 100%;
+        float: none;
+    }
     #nav > ul > li > a {
         height: auto;
         text-align: center;
