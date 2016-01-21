@@ -1728,10 +1728,10 @@ div#search-course {
 
 
 
-.dropdown li:first-child ul li a, .dropdown li:nth-child(2) ul li:nth-child(1) a, .dropdown li:nth-child(2) ul li:nth-child(3) a, .dropdown li:nth-child(2) ul li:nth-child(4) a, .dropdown li:nth-child(3) ul li:nth-child(1) a, .dropdown li:nth-child(3) ul li:nth-child(2) a, .dropdown li:nth-child(3) ul li:nth-child(3) a {
+.dropdown li:nth-child(2) ul li:nth-child(1) a, .dropdown li:nth-child(2) ul li:nth-child(3) a, .dropdown li:nth-child(2) ul li:nth-child(4) a, .dropdown li:nth-child(3) ul li:nth-child(1) a, .dropdown li:nth-child(3) ul li:nth-child(2) a, .dropdown li:nth-child(3) ul li:nth-child(3) a {
     color: #6B6B6B;
 }
 
-.cd-navigation li:nth-child(3) ul li a, .cd-navigation li:nth-child(4) ul li:nth-child(1) a, .cd-navigation li:nth-child(4) ul li:nth-child(3) a, .cd-navigation li:nth-child(4) ul li:nth-child(4) a, .cd-navigation li:nth-child(5) ul li:nth-child(1) a, .cd-navigation li:nth-child(5) ul li:nth-child(2) a, .cd-navigation li:nth-child(5) ul li:nth-child(3) a {
+.cd-navigation li:nth-child(4) ul li:nth-child(1) a, .cd-navigation li:nth-child(4) ul li:nth-child(3) a, .cd-navigation li:nth-child(4) ul li:nth-child(4) a, .cd-navigation li:nth-child(5) ul li:nth-child(1) a, .cd-navigation li:nth-child(5) ul li:nth-child(2) a, .cd-navigation li:nth-child(5) ul li:nth-child(3) a {
     color: #6B6B6B;
 }
