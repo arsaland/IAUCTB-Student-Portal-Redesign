@@ -23,6 +23,12 @@ DirectoryIndex login.html
     RewriteRule ^درخواست-گواهی /omoordaneshjoo.darkhastgovahi.html [NC,L]
     RewriteRule ^محاسبه-شهریه /omoormali.mohasebegarshahrie.html [NC,L]
     RewriteRule ^ورود /login.html [NC,L]
+    RewriteRule ^زمانبندی-ثبت-نام /zamanbandi.sabtenam.html [NC,L]
+    RewriteRule ^برنامه-هفتگی /barnameHaftegi.html [NC,L]
+    RewriteRule ^کارنامه /karname.html [NC,L]
+    RewriteRule ^لیست-دروس /coursesList.html [NC,L]
+    RewriteRule ^اعتراض-نمرات /eteraz.html [NC,L]
+    RewriteRule ^کارت-امتحان /kartemtehan.html [NC,L]
     
     RewriteCond %{HTTPS} =on
     RewriteRule ^ - [env=proto:https]
